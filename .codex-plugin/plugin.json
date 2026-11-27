@@ -22,58 +22,7 @@
     "supportURL": "https://comebarato.megawebs.com/support",
     "websiteURL": "https://comebarato.megawebs.com",
     "privacyPolicyURL": "https://comebarato.megawebs.com/privacy",
-    "termsOfServiceURL": "https://comebarato.megawebs.com/terms",
-    "review": {
-      "commerce": false,
-      "test_cases": {
-        "positive": [
-          {
-            "description": "Load saved dining profile without modifying data.",
-            "prompt": "Show my Come Barato & Gratis dining profile and dietary exclusions.",
-            "tools_triggered": "comebarato_get_profile",
-            "expected_behavior": "Call comebarato_get_profile and return the authenticated user's saved city, anchors, language, party size, budget, and dietary exclusions without mutating data."
-          },
-          {
-            "description": "Search dish deals and generate visual PDF in Madrid.",
-            "prompt": "Find the cheapest restaurant dish deals and on-route Too Good To Go Surprise Boxes near Puerta del Sol, Madrid for 2 under 25 EUR with a visual PDF.",
-            "tools_triggered": "comebarato_get_profile, comebarato_find_deals",
-            "expected_behavior": "Call comebarato_find_deals with location Puerta del Sol, Madrid, party_size 2, budget_eur 25, include_tgtg_on_route true, generate_pdf true. Return sourced dish prices, Google Maps links, and clickable PDF/web URLs."
-          },
-          {
-            "description": "Cuisine-specific poke and sushi deal search.",
-            "prompt": "Search only for poke or sushi deals near Sol, Madrid with dietary filtering.",
-            "tools_triggered": "comebarato_find_deals",
-            "expected_behavior": "Call comebarato_find_deals with craving 'poke sushi', filtering out hard exclusions and ranking sourced options cheapest-first."
-          },
-          {
-            "description": "Inspect past dining reports and recommendation history.",
-            "prompt": "Show my recent Come Barato & Gratis visual PDF reports and previously recommended venues.",
-            "tools_triggered": "comebarato_get_history",
-            "expected_behavior": "Call comebarato_get_history and return the user's past report links and recent venue history."
-          },
-          {
-            "description": "Update dining preferences using the no_red_meat preset.",
-            "prompt": "Save my dining preferences to Spanish with a 30 EUR budget for 2 people using the no_red_meat preset.",
-            "tools_triggered": "comebarato_save_profile",
-            "expected_behavior": "Call comebarato_save_profile with language 'es', party_size 2, budget_eur 30, preset 'no_red_meat' and return the updated profile."
-          }
-        ],
-        "negative": [
-          {
-            "description": "Unrelated weather query: outside Come Barato & Gratis scope. Do not invoke Come Barato & Gratis tools.",
-            "prompt": "What will the weather forecast be in Paris next Tuesday?"
-          },
-          {
-            "description": "Food ordering/checkout is not provided. Explain informational scope and do not invoke tools.",
-            "prompt": "Order two poke bowls to my home address and charge my credit card."
-          },
-          {
-            "description": "Table reservation is not provided. Explain informational scope and do not invoke tools.",
-            "prompt": "Book a table for 4 at a restaurant in Barcelona for 9 PM tonight."
-          }
-        ]
-      }
-    }
+    "termsOfServiceURL": "https://comebarato.megawebs.com/terms"
   },
   "keywords": [
     "come barato",
@@ -96,5 +45,59 @@
   "name": "come-barato-gratis",
   "repository": "https://github.com/samihalawa/come-barato-gratis",
   "skills": "./skills",
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Load saved dining profile without modifying data.",
+              "prompt": "Show my Come Barato & Gratis dining profile and dietary exclusions.",
+              "tools_triggered": "comebarato_get_profile",
+              "expected_behavior": "Call comebarato_get_profile and return the authenticated user's saved city, anchors, language, party size, budget, and dietary exclusions without mutating data."
+            },
+            {
+              "description": "Search dish deals and generate visual PDF in Madrid.",
+              "prompt": "Find the cheapest restaurant dish deals and on-route Too Good To Go Surprise Boxes near Puerta del Sol, Madrid for 2 under 25 EUR with a visual PDF.",
+              "tools_triggered": "comebarato_get_profile, comebarato_find_deals",
+              "expected_behavior": "Call comebarato_find_deals with location Puerta del Sol, Madrid, party_size 2, budget_eur 25, include_tgtg_on_route true, generate_pdf true. Return sourced dish prices, Google Maps links, and clickable PDF/web URLs."
+            },
+            {
+              "description": "Cuisine-specific poke and sushi deal search.",
+              "prompt": "Search only for poke or sushi deals near Sol, Madrid with dietary filtering.",
+              "tools_triggered": "comebarato_find_deals",
+              "expected_behavior": "Call comebarato_find_deals with craving 'poke sushi', filtering out hard exclusions and ranking sourced options cheapest-first."
+            },
+            {
+              "description": "Inspect past dining reports and recommendation history.",
+              "prompt": "Show my recent Come Barato & Gratis visual PDF reports and previously recommended venues.",
+              "tools_triggered": "comebarato_get_history",
+              "expected_behavior": "Call comebarato_get_history and return the user's past report links and recent venue history."
+            },
+            {
+              "description": "Update dining preferences using the no_red_meat preset.",
+              "prompt": "Save my dining preferences to Spanish with a 30 EUR budget for 2 people using the no_red_meat preset.",
+              "tools_triggered": "comebarato_save_profile",
+              "expected_behavior": "Call comebarato_save_profile with language 'es', party_size 2, budget_eur 30, preset 'no_red_meat' and return the updated profile."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Unrelated weather query: outside Come Barato & Gratis scope. Do not invoke Come Barato & Gratis tools.",
+              "prompt": "What will the weather forecast be in Paris next Tuesday?"
+            },
+            {
+              "description": "Food ordering/checkout is not provided. Explain informational scope and do not invoke tools.",
+              "prompt": "Order two poke bowls to my home address and charge my credit card."
+            },
+            {
+              "description": "Table reservation is not provided. Explain informational scope and do not invoke tools.",
+              "prompt": "Book a table for 4 at a restaurant in Barcelona for 9 PM tonight."
+            }
+          ]
+        }
+      }
+    }
+  }
 }

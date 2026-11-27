@@ -1,4 +1,4 @@
-# Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes y más
+# Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes gratis, y más a tu alrededor
 
 Encuentra **platos específicos baratos**, **ofertas públicas de restaurantes hasta -50% y promos 2x1** (TheFork, Uber Eats, Just Eat, menú del día) y **Surprise Boxes de Too Good To Go de paso** a tu alrededor en España — adaptado a tus exclusiones dietéticas, sin repetir sitios recientes y con **guías visuales PDF multipágina**.
 

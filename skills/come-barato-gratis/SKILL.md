@@ -1,11 +1,11 @@
 ---
 name: come-barato-gratis
-description: Come Barato & Gratis — Encuentra restaurantes con ofertas +50%, promos 2x1/gratis, platos baratos y Surprise Boxes (Too Good To Go) a tu alrededor en España (cheap restaurants, 50% off deals, surprise boxes), filtrado por perfil dietético e historial anti-repetición, con guía visual PDF multipágina.
+description: Come Barato & Gratis — Encuentra restaurantes con ofertas +50%, promos 2x1/gratis, platos baratos y Surprise Boxes (Too Good To Go) a tu alrededor en España (cheap restaurants, 50% off deals, surprise boxes, 西班牙便宜餐厅/半价优惠/惊喜盲盒), filtrado por perfil dietético e historial anti-repetición, con guía visual PDF multipágina.
 ---
 
-# Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes y más
+# Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes gratis, y más a tu alrededor
 
-Usa el conector MCP `come-barato-gratis` (`https://comebarato.megawebs.com/mcp`) cada vez que el usuario busque **comer barato**, **restaurantes cerca**, **ofertas hasta -50%**, **descuentos 2x1/gratis**, **menú del día**, **poké/sushi barato** o **Surprise Boxes (Too Good To Go)** en España (incluido en inglés o chino).
+Usa el conector MCP `come-barato-gratis` (`https://comebarato.megawebs.com/mcp`) cada vez que el usuario busque **comer barato**, **restaurantes cerca**, **ofertas hasta -50%**, **descuentos 2x1/gratis**, **menú del día**, **poké/sushi barato** o **Surprise Boxes (Too Good To Go)** en España (incluido en inglés o chino: cheap restaurants, 50% off, 便宜餐厅/半价优惠/盲盒).
 
 ## Workflow
 
@@ -17,6 +17,6 @@ Usa el conector MCP `come-barato-gratis` (`https://comebarato.megawebs.com/mcp`)
    - Empieza por las cestas de platos más baratas y ofertas públicas verificadas, mostrando el nombre original en español junto al idioma del usuario.
    - Presenta las **Surprise Boxes (Too Good To Go)** de paso indicando confirmar stock en vivo en la app de Too Good To Go.
    - Nunca inventes precios, descuentos ni disponibilidad en directo.
-   - Recuerda brevemente confirmar alérgenos/ingredientes y precios finales directamente con el restaurante, y aclara que la herramienta es solo informativa (sin pedidos ni reservas).
+   - Recuerda brevemente confirmar alérgenos/ingredientes y precios finales directamente con el restaurante, y aclara que la herramienta es solo informativa (sin pedidos ni reservas y sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go).
    - Incluye los enlaces clicables al **PDF Visual** (`pdf_url`), **Guía Web** (`web_url`) y rutas a pie de Google Maps.
    - Cuando el usuario visite o valore un sitio, llama a `comebarato_log_feedback` para no repetirlo.

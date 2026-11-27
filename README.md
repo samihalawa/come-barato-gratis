@@ -1,22 +1,22 @@
-# Plato — Spain Restaurant & Dish Deals
+# Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes y más
 
-Discover specific dishes, sourced menu prices, public restaurant offers (TheFork, Uber Eats, Just Eat, menú del día), and on-route Too Good To Go pickup suggestions across Spain — tailored to your dietary preferences with anti-repeat memory and visual multi-page PDF dining guides.
+Encuentra **platos específicos baratos**, **ofertas públicas de restaurantes hasta -50% y promos 2x1** (TheFork, Uber Eats, Just Eat, menú del día) y **Surprise Boxes de Too Good To Go de paso** a tu alrededor en España — adaptado a tus exclusiones dietéticas, sin repetir sitios recientes y con **guías visuales PDF multipágina**.
 
 ## Authentication & Setup
 - **Remote MCP Endpoint:** `https://plato.megawebs.com/mcp`
-- **OAuth 2.1:** Connect directly in ChatGPT or Claude via Megawebs Account (`https://auth.megawebs.com`).
-- **Personal Bearer Token:** Manage your saved preferences and optional CLI Bearer tokens at `https://plato.megawebs.com/account`.
+- **OAuth 2.1:** Conecta directamente en ChatGPT o Claude mediante Megawebs Account (`https://auth.megawebs.com`).
+- **Personal Bearer Token:** Gestiona tus preferencias guardadas y tokens CLI opcionales en `https://plato.megawebs.com/account`.
 
 ## Tools
-- `plato_get_profile` — Load your saved dietary exclusions, preferred cuisines, default anchors, language, party size, and budget.
-- `plato_save_profile` — Save preferences or load a dietary preset (`no_red_meat` / `default`).
-- `plato_find_dish_deals` — Search nearby restaurants, rank dietary-safe dish baskets cheapest-first, surface public deals & on-route Too Good To Go options, and generate a visual PDF.
-- `plato_generate_visual_report` — Re-render or export a visual PDF/web guide for an existing report.
-- `plato_get_history` — List past visual PDF reports and recent recommendations.
-- `plato_log_feedback` — Mark venues as visited, loved, disliked, or blacklisted to prevent repeats.
+- `plato_get_profile` — Carga exclusiones dietéticas, gustos, barrios habituales, idioma, comensales y presupuesto.
+- `plato_save_profile` — Guarda preferencias o carga el preset `no_red_meat` / `default`.
+- `plato_find_dish_deals` — Busca restaurantes cercanos, ordena cestas de platos de más barato a más caro, muestra ofertas públicas y Surprise Boxes de paso, evita repeticiones y genera un PDF visual.
+- `plato_generate_visual_report` — Regenera el PDF visual y la guía web de un informe existente.
+- `plato_get_history` — Lista informes PDF anteriores y locales recomendados.
+- `plato_log_feedback` — Marca sitios como visitados, favoritos, no deseados o bloqueados para no repetirlos.
 
 ## Scope & Disclaimers
-Plato is an informational discovery tool. It is not affiliated with TheFork, Uber Eats, Just Eat, or Too Good To Go, does not place orders or book tables, and does not guarantee live Too Good To Go stock or allergen-free preparation. Always confirm ingredients and final prices with the venue.
+Come Barato & Gratis (`plato-espana`) es una herramienta informativa de descubrimiento. No está afiliada con TheFork, Uber Eats, Just Eat ni Too Good To Go, no realiza pedidos ni reservas de mesas y no garantiza stock en vivo de Too Good To Go ni preparación libre de alérgenos. Confirma siempre los ingredientes y precios finales con el local.
 
 ## Links
 - Website & Account: `https://plato.megawebs.com`

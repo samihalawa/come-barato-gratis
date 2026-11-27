@@ -1,5 +1,5 @@
 {
-  "name": "plato-espana",
+  "name": "come-barato-gratis",
   "displayName": "Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes y más",
   "version": "1.0.0",
   "description": "Come Barato & Gratis: encuentra restaurantes con ofertas hasta -50%, promos 2x1/gratis, platos baratos y Surprise Boxes (Too Good To Go) a tu alrededor en España, filtrado por dieta con guía visual PDF (cheap restaurants, 50% off deals, surprise boxes).",
@@ -32,11 +32,11 @@
     "sushi",
     "cheap restaurants nearby"
   ],
-  "homepage": "https://plato.megawebs.com",
-  "repository": "https://github.com/samihalawa/plato-espana",
+  "homepage": "https://comebarato.megawebs.com",
+  "repository": "https://github.com/samihalawa/come-barato-gratis",
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://github.com/samihalawa/plato-espana/blob/main/README.md",
-  "supportUrl": "https://plato.megawebs.com/support",
-  "privacyPolicyUrl": "https://plato.megawebs.com/privacy",
-  "termsOfServiceUrl": "https://plato.megawebs.com/terms"
+  "documentationUrl": "https://github.com/samihalawa/come-barato-gratis/blob/main/README.md",
+  "supportUrl": "https://comebarato.megawebs.com/support",
+  "privacyPolicyUrl": "https://comebarato.megawebs.com/privacy",
+  "termsOfServiceUrl": "https://comebarato.megawebs.com/terms"
 }

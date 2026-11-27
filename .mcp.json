@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "plato-espana": {
+    "come-barato-gratis": {
       "type": "http",
-      "url": "https://plato.megawebs.com/mcp"
+      "url": "https://comebarato.megawebs.com/mcp"
     }
   }
 }

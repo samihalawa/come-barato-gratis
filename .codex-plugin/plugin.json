@@ -4,7 +4,7 @@
     "name": "Sami Halawa"
   },
   "description": "Come Barato & Gratis: restaurantes ofertas +50%, promos 2x1/gratis, platos baratos y Surprise Boxes (Too Good To Go) a tu alrededor en España, con filtro dietético y guía visual PDF.",
-  "homepage": "https://plato.megawebs.com",
+  "homepage": "https://comebarato.megawebs.com",
   "interface": {
     "capabilities": ["Interactive", "Read", "Write"],
     "category": "Lifestyle",
@@ -17,12 +17,12 @@
     "developerName": "Sami Halawa",
     "displayName": "Come Barato & Gratis — Ofertas +50% & Surprise Boxes",
     "logo": "./assets/logo.png",
-    "longDescription": "Come Barato & Gratis (Plato España) busca restaurantes a tu alrededor en España, compara platos específicos y cestas para 2 o más personas ordenadas de más barato a más caro desde cartas públicas, destaca ofertas públicas de hasta -50% o más, 2x1 y menú del día en TheFork, Uber Eats y Just Eat, añade Surprise Boxes de Too Good To Go que te pillen de paso sin desvíos, filtra según tus exclusiones dietéticas guardadas, evita repetir recomendaciones recientes y genera una guía visual PDF multipágina con fotos reales y rutas a pie. Uso informativo; sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go. No realiza pedidos ni reservas, ni garantiza stock en vivo en Too Good To Go ni preparación libre de alérgenos; confirma ingredientes y precios con el local.",
+    "longDescription": "Come Barato & Gratis busca restaurantes a tu alrededor en España, compara platos específicos y cestas para 2 o más personas ordenadas de más barato a más caro desde cartas públicas, destaca ofertas públicas de hasta -50% o más, 2x1 y menú del día en TheFork, Uber Eats y Just Eat, añade Surprise Boxes de Too Good To Go que te pillen de paso sin desvíos, filtra según tus exclusiones dietéticas guardadas, evita repetir recomendaciones recientes y genera una guía visual PDF multipágina con fotos reales y rutas a pie. Uso informativo; sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go. No realiza pedidos ni reservas, ni garantiza stock en vivo en Too Good To Go ni preparación libre de alérgenos; confirma ingredientes y precios con el local.",
     "shortDescription": "Ofertas hasta -50%, Surprise Boxes y platos baratos",
-    "supportURL": "https://plato.megawebs.com/support",
-    "websiteURL": "https://plato.megawebs.com",
-    "privacyPolicyURL": "https://plato.megawebs.com/privacy",
-    "termsOfServiceURL": "https://plato.megawebs.com/terms"
+    "supportURL": "https://comebarato.megawebs.com/support",
+    "websiteURL": "https://comebarato.megawebs.com",
+    "privacyPolicyURL": "https://comebarato.megawebs.com/privacy",
+    "termsOfServiceURL": "https://comebarato.megawebs.com/terms"
   },
   "keywords": [
     "come barato",
@@ -42,8 +42,8 @@
   ],
   "license": "MIT",
   "mcpServers": "./mcp.json",
-  "name": "plato-espana",
-  "repository": "https://github.com/samihalawa/plato-espana",
+  "name": "come-barato-gratis",
+  "repository": "https://github.com/samihalawa/come-barato-gratis",
   "skills": "./skills",
   "version": "1.0.0"
 }

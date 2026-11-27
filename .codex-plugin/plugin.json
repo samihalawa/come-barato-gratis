@@ -7,18 +7,18 @@
   "homepage": "https://comebarato.megawebs.com",
   "interface": {
     "capabilities": ["Interactive", "Read", "Write"],
-    "category": "Lifestyle",
+    "category": "Productivity",
     "composerIcon": "./assets/icon.png",
     "defaultPrompt": [
-      "Come barato cerca de Puerta del Sol, Madrid esta noche para 2 por menos de 25 €: ofertas +50%, platos sin carne roja y Surprise Boxes de paso en PDF visual.",
-      "Busca restaurantes con ofertas hasta -50%, 2x1 o poké/sushi barato cerca de mí en Madrid o Barcelona, con Too Good To Go de camino.",
-      "帮我在马德里 Sol 附近找今晚两个人 25 欧以内性价比最高、有半价优惠且无牛羊猪肉的餐厅和具体菜品，顺便看沿途有没有 Too Good To Go 惊喜盲盒，生成带菜品实拍图的 PDF 指南。"
+      "Come barato cerca de Sol, Madrid para 2 por <25 €: ofertas +50%, sin carne roja y Surprise Boxes.",
+      "Busca restaurantes con ofertas -50%, 2x1 o poké/sushi barato cerca de mí y Too Good To Go.",
+      "帮我在马德里 Sol 附近找今晚两个人 25 欧以内性价比高、无牛羊猪肉的餐厅和盲盒，生成 PDF 指南。"
     ],
     "developerName": "Sami Halawa",
-    "displayName": "Come Barato & Gratis — Ofertas +50% & Surprise Boxes",
+    "displayName": "Come Barato & Gratis",
     "logo": "./assets/logo.png",
     "longDescription": "Come Barato & Gratis busca restaurantes a tu alrededor en España, compara platos específicos y cestas para 2 o más personas ordenadas de más barato a más caro desde cartas públicas, destaca ofertas públicas de hasta -50% o más, 2x1 y menú del día en TheFork, Uber Eats y Just Eat, añade Surprise Boxes de Too Good To Go que te pillen de paso sin desvíos, filtra según tus exclusiones dietéticas guardadas, evita repetir recomendaciones recientes y genera una guía visual PDF multipágina con fotos reales y rutas a pie. Uso informativo; sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go. No realiza pedidos ni reservas, ni garantiza stock en vivo en Too Good To Go ni preparación libre de alérgenos; confirma ingredientes y precios con el local.",
-    "shortDescription": "Ofertas hasta -50%, Surprise Boxes y platos baratos",
+    "shortDescription": "Ofertas +50% y Surprise Boxes",
     "supportURL": "https://comebarato.megawebs.com/support",
     "websiteURL": "https://comebarato.megawebs.com",
     "privacyPolicyURL": "https://comebarato.megawebs.com/privacy",

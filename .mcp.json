@@ -2,7 +2,7 @@
   "mcpServers": {
     "come-barato-gratis": {
       "type": "http",
-      "url": "https://comebarato.megawebs.com/mcp"
+      "url": "https://come.cheap/mcp"
     }
   }
 }

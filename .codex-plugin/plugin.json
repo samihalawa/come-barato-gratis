@@ -4,10 +4,14 @@
     "name": "Sami Halawa"
   },
   "description": "Come Barato & Gratis: restaurantes ofertas +50%, promos 2x1/gratis, platos baratos y Surprise Boxes (Too Good To Go) a tu alrededor en España, con filtro dietético y guía visual PDF.",
-  "homepage": "https://comebarato.megawebs.com",
+  "homepage": "https://come.cheap",
   "interface": {
-    "capabilities": ["Interactive", "Read", "Write"],
-    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Lifestyle",
     "composerIcon": "./assets/icon.png",
     "defaultPrompt": [
       "Come barato cerca de Sol, Madrid para 2 por <25 €: ofertas +50%, sin carne roja y Surprise Boxes.",
@@ -19,10 +23,10 @@
     "logo": "./assets/logo.png",
     "longDescription": "Come Barato & Gratis busca restaurantes a tu alrededor en España, compara platos específicos y cestas para 2 o más personas ordenadas de más barato a más caro desde cartas públicas, destaca ofertas públicas de hasta -50% o más, 2x1 y menú del día en TheFork, Uber Eats y Just Eat, añade Surprise Boxes de Too Good To Go que te pillen de paso sin desvíos, filtra según tus exclusiones dietéticas guardadas, evita repetir recomendaciones recientes y genera una guía visual PDF multipágina con fotos reales y rutas a pie. Uso informativo; sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go. No realiza pedidos ni reservas, ni garantiza stock en vivo en Too Good To Go ni preparación libre de alérgenos; confirma ingredientes y precios con el local.",
     "shortDescription": "Ofertas +50% y Surprise Boxes",
-    "supportURL": "https://comebarato.megawebs.com/support",
-    "websiteURL": "https://comebarato.megawebs.com",
-    "privacyPolicyURL": "https://comebarato.megawebs.com/privacy",
-    "termsOfServiceURL": "https://comebarato.megawebs.com/terms"
+    "supportURL": "https://come.cheap/support",
+    "websiteURL": "https://come.cheap",
+    "privacyPolicyURL": "https://come.cheap/privacy",
+    "termsOfServiceURL": "https://come.cheap/terms"
   },
   "keywords": [
     "come barato",
@@ -45,7 +49,7 @@
   "name": "come-barato-gratis",
   "repository": "https://github.com/samihalawa/come-barato-gratis",
   "skills": "./skills",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "extensions": {
     "com.openai": {
       "review": {
@@ -96,6 +100,266 @@
               "prompt": "Book a table for 4 at a restaurant in Barcelona for 9 PM tonight."
             }
           ]
+        },
+        "commerce": false,
+        "commerce_description": "Informational restaurant deals and visual PDF dining guide; no checkout, ordering, reservation, or payment functionality.",
+        "demo_recording_url": "https://github.com/samihalawa/come-barato-gratis/releases/download/v1.0.2/come-barato-gratis-demo.mp4"
+      },
+      "publication": {
+        "release_notes": "Launched come.cheap primary domain, studio-grade icon, strengthened GDPR privacy policy, and full 63-language listing support.",
+        "translations": {
+          "am": {
+            "subtitle": "+50% ቅናሾች እና Surprise Boxes",
+            "description": "Come Barato & Gratis በስፔን በአካባቢዎ ያሉ ምግብ ቤቶችን ይፈልጋል፣ ለ2 ወይም ከዚያ በላይ ሰዎች የተወሰኑ ምግቦችን እና ቅርጫቶችን ከርካሽ እስከ ውድ በይፋዊ ምናሌዎች መሠረት ያነጻጽራል፣ እስከ -50% ወይም ከዚያ በላይ ቅናሾችን፣ 2x1 እና ዕለታዊ ምናሌዎችን በTheFork፣ Uber Eats እና Just Eat ያጎላል፣ ያለ መዞር በመንገድዎ ላይ ያሉ የToo Good To Go Surprise Boxes ይጨምራል፣ በተቀመጡ የአመጋገብ ገደቦችዎ መሠረት ያጣራል፣ የቅርብ ጊዜ ምክሮችን አይደግምም እንዲሁም እውነተኛ ፎቶዎችና የእግር መንገዶች ያሉት ባለብዙ ገጽ PDF የእይታ መመሪያ ይፈጥራል። ለመረጃ ብቻ፤ ከTheFork፣ Uber Eats፣ Just Eat ወይም Too Good To Go ጋር ምንም ግንኙነት የለውም። ትዕዛዝ ወይም ቦታ ማስያዝ አያደርግም፣ በToo Good To Go የቀጥታ ክምችት ወይም ከአለርጂ ነጻ ዝግጅት አያረጋግጥም፤ ንጥረ ነገሮችን እና ዋጋዎችን ከምግብ ቤቱ ጋር ያረጋግጡ።"
+          },
+          "ar": {
+            "subtitle": "عروض +50% وSurprise Boxes",
+            "description": "يبحث Come Barato & Gratis عن مطاعم بالقرب منك في إسبانيا، ويقارن أطباقًا محددة وسلالًا لشخصين أو أكثر مرتبة من الأرخص إلى الأغلى انطلاقًا من القوائم العامة، ويُبرز عروضًا عامة تصل إلى -50% أو أكثر، وعروض 2x1 وقائمة اليوم على TheFork وUber Eats وJust Eat، ويضيف صناديق Surprise Boxes من Too Good To Go على طريقك دون انحراف، ويُصفّي النتائج وفق استبعاداتك الغذائية المحفوظة، ويتجنب تكرار التوصيات الحديثة، ويُنشئ دليلًا بصريًا بصيغة PDF متعدد الصفحات مع صور حقيقية ومسارات مشي. للاستخدام المعلوماتي فقط؛ لا توجد أي شراكة أو ارتباط مع TheFork أو Uber Eats أو Just Eat أو Too Good To Go. لا يُجري طلبات أو حجوزات، ولا يضمن توفر المخزون الفوري في Too Good To Go أو خلوّ التحضير من مسببات الحساسية؛ تحقّق من المكونات والأسعار مع المطعم."
+          },
+          "bg-BG": {
+            "subtitle": "Оферти +50% и Surprise Boxes",
+            "description": "Come Barato & Gratis търси ресторанти около вас в Испания, сравнява конкретни ястия и кошници за 2 или повече души от най-евтини към най-скъпи по публични менюта, откроява публични оферти до -50% и повече, 2x1 и обедни менюта в TheFork, Uber Eats и Just Eat, добавя Surprise Boxes от Too Good To Go по пътя ви без отклонения, филтрира според запазените ви хранителни изключения, избягва повтарянето на скорошни препоръки и генерира многостраничен визуален PDF гид с реални снимки и пешеходни маршрути. Само с информационна цел; без обвързаност с TheFork, Uber Eats, Just Eat или Too Good To Go. Не извършва поръчки или резервации и не гарантира наличност в реално време в Too Good To Go или приготвяне без алергени; потвърдете съставките и цените в заведението."
+          },
+          "bn-BD": {
+            "subtitle": "+৫০% ছাড় ও Surprise Boxes",
+            "description": "Come Barato & Gratis স্পেনে আপনার আশেপাশের রেস্তোরাঁ খুঁজে দেয়, পাবলিক মেনু থেকে ২ বা ততোধিক মানুষের জন্য নির্দিষ্ট পদ ও বাস্কেট সবচেয়ে সস্তা থেকে দামি অনুযায়ী তুলনা করে, TheFork, Uber Eats এবং Just Eat-এ -৫০% বা তার বেশি ছাড়, ২x১ এবং দৈনিক মেনু তুলে ধরে, কোনো বাড়তি ঘুরপথ ছাড়াই আপনার রাস্তার ধারের Too Good To Go Surprise Boxes যোগ করে, আপনার সংরক্ষিত খাদ্য-বর্জন অনুযায়ী ফিল্টার করে, সাম্প্রতিক সুপারিশের পুনরাবৃত্তি এড়ায় এবং আসল ছবি ও হাঁটার রুটসহ বহু-পৃষ্ঠার ভিজ্যুয়াল PDF গাইড তৈরি করে। কেবল তথ্যমূলক ব্যবহারের জন্য; TheFork, Uber Eats, Just Eat বা Too Good To Go-এর সাথে কোনো সম্পর্ক নেই। এটি অর্ডার বা রিজার্ভেশন করে না, এবং Too Good To Go-তে লাইভ স্টক বা অ্যালার্জেন-মুক্ত প্রস্তুতির নিশ্চয়তা দেয় না; উপাদান ও দাম রেস্তোরাঁর সাথে যাচাই করুন।"
+          },
+          "bs-BA": {
+            "subtitle": "Popusti +50% i Surprise Boxes",
+            "description": "Come Barato & Gratis traži restorane u vašoj blizini u Španiji, upoređuje konkretna jela i korpe za 2 ili više osoba poredane od najjeftinijih ka najskupljim iz javnih jelovnika, izdvaja javne ponude do -50% i više, 2x1 i dnevne menije na platformama TheFork, Uber Eats i Just Eat, dodaje Too Good To Go Surprise Boxes koje su vam usput bez skretanja, filtrira prema vašim sačuvanim prehrambenim isključenjima, izbjegava ponavljanje nedavnih preporuka i generira višestranični vizuelni PDF vodič sa stvarnim fotografijama i pješačkim rutama. Informativna upotreba; bez povezanosti sa TheFork, Uber Eats, Just Eat ili Too Good To Go. Ne vrši narudžbe ni rezervacije, niti garantuje trenutnu zalihu na Too Good To Go ili pripremu bez alergena; potvrdite sastojke i cijene u objektu."
+          },
+          "ca-ES": {
+            "subtitle": "Ofertes +50% i Surprise Boxes",
+            "description": "Come Barato & Gratis cerca restaurants al teu voltant a Espanya, compara plats concrets i cistelles per a 2 o més persones ordenats de més barat a més car a partir de cartes públiques, destaca ofertes públiques de fins al -50% o més, 2x1 i menú del dia a TheFork, Uber Eats i Just Eat, hi afegeix Surprise Boxes de Too Good To Go que et quedin de pas sense desviaments, filtra segons les teves exclusions dietètiques desades, evita repetir recomanacions recents i genera una guia visual en PDF multipàgina amb fotos reals i rutes a peu. Ús informatiu; sense afiliació amb TheFork, Uber Eats, Just Eat ni Too Good To Go. No fa comandes ni reserves, ni garanteix estoc en temps real a Too Good To Go ni preparació sense al·lèrgens; confirma els ingredients i els preus amb el local."
+          },
+          "cs-CZ": {
+            "subtitle": "Slevy +50 % a Surprise Boxes",
+            "description": "Come Barato & Gratis vyhledává restaurace ve vašem okolí ve Španělsku, porovnává konkrétní jídla a košíky pro 2 a více osob seřazené od nejlevnějších po nejdražší z veřejných jídelních lístků, zvýrazňuje veřejné nabídky až -50 % a více, 2x1 a denní menu na TheFork, Uber Eats a Just Eat, přidává Surprise Boxes z Too Good To Go po cestě bez zajížděk, filtruje podle vašich uložených dietních omezení, vyhýbá se opakování nedávných doporučení a vytváří vícestránkový vizuální PDF průvodce se skutečnými fotografiemi a pěšími trasami. Pouze pro informační účely; bez spojení s TheFork, Uber Eats, Just Eat ani Too Good To Go. Neprovádí objednávky ani rezervace a nezaručuje aktuální dostupnost v Too Good To Go ani přípravu bez alergenů; složení a ceny si ověřte v podniku."
+          },
+          "da-DK": {
+            "subtitle": "Tilbud +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis finder restauranter omkring dig i Spanien, sammenligner konkrete retter og kurve for 2 eller flere personer sorteret fra billigst til dyrest ud fra offentlige menukort, fremhæver offentlige tilbud på op til -50% eller mere, 2x1 og dagens menu på TheFork, Uber Eats og Just Eat, tilføjer Too Good To Go Surprise Boxes på din rute uden omveje, filtrerer efter dine gemte kostbegrænsninger, undgår at gentage nylige anbefalinger og genererer en flersidet visuel PDF-guide med ægte fotos og gåruter. Kun til informationsbrug; ingen tilknytning til TheFork, Uber Eats, Just Eat eller Too Good To Go. Udfører ikke bestillinger eller reservationer og garanterer ikke live-lager hos Too Good To Go eller allergenfri tilberedning; bekræft ingredienser og priser med stedet."
+          },
+          "de-DE": {
+            "subtitle": "Deals +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis findet Restaurants in deiner Nähe in Spanien, vergleicht konkrete Gerichte und Warenkörbe für 2 oder mehr Personen sortiert vom günstigsten zum teuersten Preis aus öffentlichen Speisekarten, hebt öffentliche Angebote von bis zu -50 % oder mehr, 2-für-1 und Tagesmenüs auf TheFork, Uber Eats und Just Eat hervor, ergänzt passende Too Good To Go Surprise Boxes direkt auf deinem Weg ohne Umwege, filtert nach deinen gespeicherten Ernährungsausschlüssen, vermeidet wiederholte Empfehlungen und erstellt einen mehrseitigen visuellen PDF-Guide mit echten Fotos und Fußwegen. Nur zu Informationszwecken; keine Verbindung zu TheFork, Uber Eats, Just Eat oder Too Good To Go. Nimmt keine Bestellungen oder Reservierungen vor und garantiert weder Live-Bestände bei Too Good To Go noch allergenfreie Zubereitung; Zutaten und Preise bitte im Lokal bestätigen."
+          },
+          "el-GR": {
+            "subtitle": "Προσφορές +50% & Surprise Box",
+            "description": "Το Come Barato & Gratis αναζητά εστιατόρια κοντά σας στην Ισπανία, συγκρίνει συγκεκριμένα πιάτα και καλάθια για 2 ή περισσότερα άτομα από το φθηνότερο προς το ακριβότερο βάσει δημόσιων μενού, αναδεικνύει δημόσιες προσφορές έως -50% ή περισσότερο, 2x1 και μενού ημέρας σε TheFork, Uber Eats και Just Eat, προσθέτει Surprise Boxes του Too Good To Go που βρίσκονται στη διαδρομή σας χωρίς παρακάμψεις, φιλτράρει με βάση τις αποθηκευμένες διατροφικές σας εξαιρέσεις, αποφεύγει την επανάληψη πρόσφατων προτάσεων και δημιουργεί έναν πολυσέλιδο οπτικό οδηγό PDF με πραγματικές φωτογραφίες και διαδρομές με τα πόδια. Ενημερωτική χρήση· καμία σύνδεση με TheFork, Uber Eats, Just Eat ή Too Good To Go. Δεν πραγματοποιεί παραγγελίες ή κρατήσεις, ούτε εγγυάται ζωντανό απόθεμα στο Too Good To Go ή παρασκευή χωρίς αλλεργιογόνα· επιβεβαιώστε τα συστατικά και τις τιμές με το κατάστημα."
+          },
+          "es-419": {
+            "subtitle": "Ofertas +50% y Surprise Boxes",
+            "description": "Come Barato & Gratis busca restaurantes cerca de ti en España, compara platos específicos y canastas para 2 o más personas ordenados de más barato a más caro desde menús públicos, destaca ofertas públicas de hasta -50% o más, 2x1 y menú del día en TheFork, Uber Eats y Just Eat, agrega Surprise Boxes de Too Good To Go que te queden de paso sin desvíos, filtra según tus exclusiones alimentarias guardadas, evita repetir recomendaciones recientes y genera una guía visual en PDF multipágina con fotos reales y rutas a pie. Uso informativo; sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go. No realiza pedidos ni reservas, ni garantiza inventario en tiempo real en Too Good To Go ni preparación libre de alérgenos; confirma ingredientes y precios con el local."
+          },
+          "es-ES": {
+            "subtitle": "Ofertas +50% y Surprise Boxes",
+            "description": "Come Barato & Gratis busca restaurantes a tu alrededor en España, compara platos específicos y cestas para 2 o más personas ordenadas de más barato a más caro desde cartas públicas, destaca ofertas públicas de hasta -50% o más, 2x1 y menú del día en TheFork, Uber Eats y Just Eat, añade Surprise Boxes de Too Good To Go que te pillen de paso sin desvíos, filtra según tus exclusiones dietéticas guardadas, evita repetir recomendaciones recientes y genera una guía visual PDF multipágina con fotos reales y rutas a pie. Uso informativo; sin afiliación con TheFork, Uber Eats, Just Eat ni Too Good To Go. No realiza pedidos ni reservas, ni garantiza stock en vivo en Too Good To Go ni preparación libre de alérgenos; confirma ingredientes y precios con el local."
+          },
+          "et-EE": {
+            "subtitle": "Soodus +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis otsib teie lähedal asuvaid restorane Hispaanias, võrdleb avalike menüüde alusel konkreetseid roogasid ja ostukorve kahele või enamale inimesele odavaimast kallimani, toob esile avalikud pakkumised kuni -50% ja enam, 2x1 pakkumised ning päevamenüüd platvormidel TheFork, Uber Eats ja Just Eat, lisab teele jäävad Too Good To Go Surprise Boxes ilma ümbersõitudeta, filtreerib teie salvestatud toitumispiirangute järgi, väldib hiljutiste soovituste kordamist ning loob mitmeleheküljelise visuaalse PDF-giidi päris fotode ja jalutusteedega. Ainult teavitav kasutus; puudub seotus TheForki, Uber Eatsi, Just Eati või Too Good To Goga. Ei tee tellimusi ega broneeringuid ega taga reaalajas laoseisu Too Good To Gos ega allergeenivaba valmistamist; kinnitage koostisosad ja hinnad kohapeal."
+          },
+          "fi-FI": {
+            "subtitle": "+50 % edut & Surprise Boxes",
+            "description": "Come Barato & Gratis etsii ravintoloita lähelläsi Espanjassa, vertailee yksittäisiä annoksia ja vähintään kahden hengen koreja halvimmasta kalleimpaan julkisista ruokalistoista, nostaa esiin julkiset jopa -50 % tai suuremmat tarjoukset, 2x1-edut ja päivän menut palveluissa TheFork, Uber Eats ja Just Eat, lisää matkasi varrella olevat Too Good To Go Surprise Boxes -yllätykset ilman kiertoteitä, suodattaa tallennettujen ruokavaliorajoitustesi mukaan, välttää toistamasta tuoreita suosituksia ja luo monisivuisen visuaalisen PDF-oppaan aidoilla kuvilla ja kävelyreiteillä. Vain tiedotuskäyttöön; ei yhteyttä palveluihin TheFork, Uber Eats, Just Eat tai Too Good To Go. Ei tee tilauksia tai varauksia eikä takaa Too Good To Go -saatavuutta reaaliajassa tai allergeenitonta valmistusta; varmista ainesosat ja hinnat ravintolasta."
+          },
+          "fr-CA": {
+            "subtitle": "Rabais +50 % et Surprise Boxes",
+            "description": "Come Barato & Gratis repère des restaurants près de vous en Espagne, compare des plats précis et des paniers pour 2 personnes ou plus classés du moins cher au plus cher à partir de menus publics, met en valeur les offres publiques jusqu'à -50 % et plus, les promos 2 pour 1 et les menus du jour sur TheFork, Uber Eats et Just Eat, ajoute les Surprise Boxes Too Good To Go situées sur votre trajet sans détour, filtre selon vos exclusions alimentaires enregistrées, évite de répéter les recommandations récentes et génère un guide visuel PDF multipage avec photos réelles et itinéraires à pied. À titre informatif seulement; aucune affiliation avec TheFork, Uber Eats, Just Eat ou Too Good To Go. Ne passe pas de commandes ni de réservations, et ne garantit ni le stock en direct sur Too Good To Go ni une préparation sans allergènes; vérifiez les ingrédients et les prix auprès du restaurant."
+          },
+          "fr-FR": {
+            "subtitle": "Promos +50 % et Surprise Boxes",
+            "description": "Come Barato & Gratis recherche des restaurants autour de vous en Espagne, compare des plats précis et des paniers pour 2 personnes ou plus classés du moins cher au plus cher à partir de cartes publiques, met en avant les offres publiques jusqu'à -50 % et plus, les promos 2 pour 1 et menus du jour sur TheFork, Uber Eats et Just Eat, ajoute les Surprise Boxes Too Good To Go sur votre trajet sans détour, filtre selon vos exclusions alimentaires enregistrées, évite de répéter les recommandations récentes et génère un guide visuel PDF multipage avec photos réelles et itinéraires à pied. Usage informatif uniquement ; aucune affiliation avec TheFork, Uber Eats, Just Eat ou Too Good To Go. Ne passe ni commandes ni réservations et ne garantit ni le stock en temps réel sur Too Good To Go ni une préparation sans allergènes ; vérifiez les ingrédients et les prix auprès de l'établissement."
+          },
+          "gu-IN": {
+            "subtitle": "+50% ઑફર્સ અને Surprise Boxes",
+            "description": "Come Barato & Gratis સ્પેનમાં તમારી આસપાસના રેસ્ટોરાં શોધે છે, જાહેર મેનુ પરથી 2 કે તેથી વધુ લોકો માટે ચોક્કસ વાનગીઓ અને બાસ્કેટની સસ્તાથી મોંઘા ક્રમમાં તુલના કરે છે, TheFork, Uber Eats અને Just Eat પર -50% કે તેથી વધુની જાહેર ઑફર્સ, 2x1 અને ડેઇલી મેનુ હાઇલાઇટ કરે છે, વધારાના ચક્કર વગર રસ્તામાં આવતા Too Good To Go Surprise Boxes ઉમેરે છે, તમારા સાચવેલા આહાર પ્રતિબંધો મુજબ ફિલ્ટર કરે છે, તાજેતરની ભલામણોનું પુનરાવર્તન ટાળે છે અને સાચા ફોટા તથા ચાલવાના રૂટ સાથે બહુ-પાનાની વિઝ્યુઅલ PDF ગાઇડ બનાવે છે. માત્ર માહિતી માટે; TheFork, Uber Eats, Just Eat કે Too Good To Go સાથે કોઈ જોડાણ નથી. ઓર્ડર કે રિઝર્વેશન કરતું નથી અને Too Good To Go પર લાઇવ સ્ટોક કે એલર્જન-મુક્ત તૈયારીની ખાતરી આપતું નથી; રેસ્ટોરાં સાથે સામગ્રી અને ભાવની પુષ્ટિ કરો."
+          },
+          "hi-IN": {
+            "subtitle": "+50% ऑफ़र और Surprise Boxes",
+            "description": "Come Barato & Gratis स्पेन में आपके आसपास रेस्तरां खोजता है, सार्वजनिक मेनू से 2 या अधिक लोगों के लिए विशिष्ट व्यंजनों और बास्केट की सबसे सस्ते से महंगे क्रम में तुलना करता है, TheFork, Uber Eats और Just Eat पर -50% या अधिक के सार्वजनिक ऑफ़र, 2x1 और डेली मेनू दिखाता है, बिना चक्कर लगाए रास्ते में पड़ने वाले Too Good To Go Surprise Boxes जोड़ता है, आपकी सहेजी गई आहार पाबंदियों के अनुसार फ़िल्टर करता है, हाल की सिफारिशों को दोहराने से बचता है और असली तस्वीरों व पैदल मार्गों के साथ बहु-पृष्ठ विज़ुअल PDF गाइड बनाता है। केवल जानकारी के लिए; TheFork, Uber Eats, Just Eat या Too Good To Go से कोई संबद्धता नहीं है। यह ऑर्डर या बुकिंग नहीं करता, और न ही Too Good To Go पर लाइव स्टॉक या एलर्जेन-मुक्त तैयारी की गारंटी देता है; सामग्री और कीमतों की पुष्टि रेस्तरां से करें।"
+          },
+          "hr-HR": {
+            "subtitle": "Ponude +50% i Surprise Boxes",
+            "description": "Come Barato & Gratis traži restorane u vašoj blizini u Španjolskoj, uspoređuje konkretna jela i košarice za 2 ili više osoba poredane od najjeftinijih prema najskupljima iz javnih jelovnika, izdvaja javne ponude do -50% i više, 2x1 i dnevne menije na platformama TheFork, Uber Eats i Just Eat, dodaje Too Good To Go Surprise Boxes koji su vam usput bez skretanja, filtrira prema vašim spremljenim prehrambenim isključenjima, izbjegava ponavljanje nedavnih preporuka te izrađuje višestranični vizualni PDF vodič sa stvarnim fotografijama i pješačkim rutama. Informativna upotreba; bez povezanosti s TheFork, Uber Eats, Just Eat ili Too Good To Go. Ne izvršava narudžbe ni rezervacije niti jamči dostupnost uživo na Too Good To Go ili pripremu bez alergena; potvrdite sastojke i cijene u lokalu."
+          },
+          "hu-HU": {
+            "subtitle": "+50% ajánlat & Surprise Boxes",
+            "description": "A Come Barato & Gratis közeli éttermeket keres Spanyolországban, nyilvános étlapokból a legolcsóbbtól a legdrágábbig összehasonlítja az egyes fogásokat és kosarakat 2 vagy több főre, kiemeli a TheFork, az Uber Eats és a Just Eat akár -50%-os vagy nagyobb nyilvános ajánlatait, a 2x1 akciókat és a napi menüket, kitérő nélkül hozzáadja az útba eső Too Good To Go Surprise Boxes csomagokat, szűr a mentett étrendi kizárásaid alapján, kerüli a legutóbbi ajánlások ismétlését, és többoldalas vizuális PDF-útmutatót készít valódi fotókkal és gyalogos útvonalakkal. Csak tájékoztató jellegű; nincs kapcsolatban a TheFork, Uber Eats, Just Eat vagy Too Good To Go szolgáltatásokkal. Nem ad le rendelést vagy foglalást, és nem garantálja a Too Good To Go valós idejű készletét vagy az allergénmentes elkészítést; az összetevőket és árakat egyeztesd az étteremmel."
+          },
+          "hy-AM": {
+            "subtitle": "+50% զեղչ և Surprise Boxes",
+            "description": "Come Barato & Gratis-ը փնտրում է ձեր շրջակայքի ռեստորանները Իսպանիայում, հանրային մենյուներից համեմատում է կոնկրետ ուտեստներ և զամբյուղներ 2 կամ ավելի անձանց համար՝ ամենաէժանից մինչև ամենաթանկը, առանձնացնում է մինչև -50% և ավելի հանրային առաջարկներ, 2x1 և օրվա մենյու TheFork, Uber Eats և Just Eat հարթակներում, ավելացնում է ճանապարհին հանդիպող Too Good To Go Surprise Boxes՝ առանց շեղումների, զտում է ըստ ձեր պահպանված սննդային սահմանափակումների, խուսափում է վերջին առաջարկների կրկնությունից և ստեղծում բազմէջ տեսողական PDF ուղեցույց՝ իրական լուսանկարներով և հետիոտն երթուղիներով։ Միայն տեղեկատվական նպատակով․ կապ չունի TheFork-ի, Uber Eats-ի, Just Eat-ի կամ Too Good To Go-ի հետ։ Պատվերներ կամ ամրագրումներ չի կատարում և չի երաշխավորում Too Good To Go-ի առցանց պաշարը կամ առանց ալերգենների պատրաստումը․ բաղադրիչներն ու գները ճշտեք հաստատությունում։"
+          },
+          "id-ID": {
+            "subtitle": "Promo +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis mencari restoran di sekitar Anda di Spanyol, membandingkan hidangan tertentu dan keranjang untuk 2 orang atau lebih yang diurutkan dari termurah hingga termahal dari menu publik, menyoroti promo publik hingga -50% atau lebih, 2x1, dan menu harian di TheFork, Uber Eats, serta Just Eat, menambahkan Surprise Boxes Too Good To Go yang searah tanpa memutar jalan, menyaring sesuai pantangan diet tersimpan Anda, menghindari pengulangan rekomendasi terbaru, dan membuat panduan visual PDF multi-halaman dengan foto asli dan rute jalan kaki. Hanya untuk informasi; tidak berafiliasi dengan TheFork, Uber Eats, Just Eat, maupun Too Good To Go. Tidak melakukan pemesanan atau reservasi, serta tidak menjamin stok langsung di Too Good To Go maupun pengolahan bebas alergen; pastikan bahan dan harga langsung ke restoran."
+          },
+          "is-IS": {
+            "subtitle": "+50% tilboð og Surprise Boxes",
+            "description": "Come Barato & Gratis leitar að veitingastöðum í kringum þig á Spáni, ber saman tiltekna rétti og körfur fyrir 2 eða fleiri frá ódýrasta til dýrasta af opinberum matseðlum, dregur fram opinber tilboð allt að -50% eða meira, 2f1 og dagseðla á TheFork, Uber Eats og Just Eat, bætir við Surprise Boxes frá Too Good To Go á leið þinni án útúrdúra, síar eftir vistuðum mataræðistakmörkunum þínum, forðast að endurtaka nýlegar tillögur og býr til margra síðna myndrænan PDF-leiðarvísi með raunverulegum myndum og gönguleiðum. Aðeins til upplýsinga; engin tengsl við TheFork, Uber Eats, Just Eat eða Too Good To Go. Tekur ekki við pöntunum né borðapöntunum og ábyrgist ekki rauntímabirgðir hjá Too Good To Go né ofnæmisfría matreiðslu; staðfestu innihaldsefni og verð hjá staðnum."
+          },
+          "it-IT": {
+            "subtitle": "Offerte +50% e Surprise Boxes",
+            "description": "Come Barato & Gratis cerca ristoranti intorno a te in Spagna, confronta piatti specifici e cestini per 2 o più persone ordinati dal più economico al più caro dai menu pubblici, evidenzia offerte pubbliche fino al -50% o più, 2x1 e menu del giorno su TheFork, Uber Eats e Just Eat, aggiunge le Surprise Boxes di Too Good To Go lungo il percorso senza deviazioni, filtra in base alle tue esclusioni alimentari salvate, evita di ripetere consigli recenti e genera una guida visiva PDF multipagina con foto reali e percorsi a piedi. Solo a scopo informativo; nessuna affiliazione con TheFork, Uber Eats, Just Eat né Too Good To Go. Non effettua ordini né prenotazioni e non garantisce la disponibilità in tempo reale su Too Good To Go né una preparazione priva di allergeni; verifica ingredienti e prezzi con il locale."
+          },
+          "ja-JP": {
+            "subtitle": "+50%割引とSurprise Boxes",
+            "description": "Come Barato & Gratis はスペイン国内で周辺のレストランを検索し、公開メニューから2名以上向けの特定料理やバスケットを安い順に比較します。TheFork、Uber Eats、Just Eat の最大50%以上オフ、2x1、日替わりメニューなどの公開割引を抽出し、遠回りせずに立ち寄れる Too Good To Go の Surprise Boxes も追加。保存した食事制限で絞り込み、最近の提案の重複を避け、実際の写真と徒歩ルート付きの複数ページ PDF ビジュアルガイドを生成します。情報提供のみを目的としており、TheFork、Uber Eats、Just Eat、Too Good To Go とは無関係です。注文や予約は行わず、Too Good To Go のリアルタイム在庫やアレルゲン非含有の調理も保証しません。食材と価格は店舗にご確認ください。"
+          },
+          "ka-GE": {
+            "subtitle": "+50% აქცია და Surprise Boxes",
+            "description": "Come Barato & Gratis ეძებს რესტორნებს თქვენს მახლობლად ესპანეთში, საჯარო მენიუებიდან ადარებს კონკრეტულ კერძებსა და კალათებს 2 ან მეტი ადამიანისთვის იაფიდან ძვირისკენ, გამოყოფს საჯარო შეთავაზებებს -50%-მდე და მეტ ფასდაკლებით, 2x1-სა და დღის მენიუს TheFork-ზე, Uber Eats-ზე და Just Eat-ზე, ამატებს Too Good To Go-ს Surprise Boxes-ებს, რომლებიც გზად გხვდებათ გადახვევის გარეშე, ფილტრავს თქვენი შენახული დიეტური შეზღუდვების მიხედვით, თავიდან იცილებს ბოლო რეკომენდაციების გამეორებას და ქმნის მრავალგვერდიან ვიზუალურ PDF გზამკვლევს რეალური ფოტოებითა და საფეხმავლო მარშრუტებით. მხოლოდ საინფორმაციო მიზნით; არ აქვს კავშირი TheFork-თან, Uber Eats-თან, Just Eat-თან ან Too Good To Go-სთან. არ აკეთებს შეკვეთებს ან ჯავშნებს და არ იძლევა Too Good To Go-ს ცოცხალი მარაგის ან ალერგენებისგან თავისუფალი მომზადების გარანტიას; ინგრედიენტები და ფასები დააზუსტეთ დაწესებულებაში."
+          },
+          "kk": {
+            "subtitle": "+50% жеңілдік пен Surprise Box",
+            "description": "Come Barato & Gratis Испанияда айналаңыздағы мейрамханаларды іздейді, 2 немесе одан да көп адамға арналған нақты тағамдар мен себеттерді ашық мәзірлерден ең арзанынан қымбатына қарай салыстырады, TheFork, Uber Eats және Just Eat желілеріндегі -50% не одан да жоғары ашық жеңілдіктерді, 2x1 және күндізгі мәзірді бөліп көрсетеді, жолдан бұрылмай өтетін Too Good To Go Surprise Boxes нұсқаларын қосады, сақталған диеталық шектеулер бойынша сүзеді, жуырдағы ұсыныстарды қайталамайды және нақты фотосуреттері мен жаяу бағыттары бар көп беттік визуалды PDF нұсқаулық жасайды. Тек ақпараттық мақсатта; TheFork, Uber Eats, Just Eat не Too Good To Go-мен байланысы жоқ. Тапсырыс немесе брондау жасамайды, Too Good To Go-дағы нақты уақыттағы қорды не аллергенсіз дайындауды кепілдемейді; құрамы мен бағасын мекемеден нақтылаңыз."
+          },
+          "kn-IN": {
+            "subtitle": "+50% ಆಫರ್ ಮತ್ತು Surprise Box",
+            "description": "Come Barato & Gratis ಸ್ಪೇನ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ರೆಸ್ಟೋರೆಂಟ್‌ಗಳನ್ನು ಹುಡುಕುತ್ತದೆ, ಸಾರ್ವಜನಿಕ ಮೆನುಗಳಿಂದ 2 ಅಥವಾ ಹೆಚ್ಚಿನ ಜನರಿಗಾಗಿ ನಿರ್ದಿಷ್ಟ ಭಕ್ಷ್ಯಗಳು ಮತ್ತು ಬಾಸ್ಕೆಟ್‌ಗಳನ್ನು ಅಗ್ಗದಿಂದ ದುಬಾರಿಯವರೆಗೆ ಹೋಲಿಸುತ್ತದೆ, TheFork, Uber Eats ಮತ್ತು Just Eat ನಲ್ಲಿ -50% ಅಥವಾ ಹೆಚ್ಚಿನ ಸಾರ್ವಜನಿಕ ಆಫರ್‌ಗಳು, 2x1 ಮತ್ತು ದೈನಂದಿನ ಮೆನುಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡುತ್ತದೆ, ಬಳಸು ದಾರಿಯಿಲ್ಲದೆ ನಿಮ್ಮ ಮಾರ್ಗದಲ್ಲೇ ಇರುವ Too Good To Go Surprise Boxes ಸೇರಿಸುತ್ತದೆ, ನಿಮ್ಮ ಉಳಿಸಿದ ಆಹಾರ ನಿರ್ಬಂಧಗಳ ಪ್ರಕಾರ ಫಿಲ್ಟರ್ ಮಾಡುತ್ತದೆ, ಇತ್ತೀಚಿನ ಶಿಫಾರಸುಗಳನ್ನು ಪುನರಾವರ್ತಿಸುವುದನ್ನು ತಪ್ಪಿಸುತ್ತದೆ ಮತ್ತು ನೈಜ ಫೋಟೋಗಳು ಹಾಗೂ ನಡಿಗೆ ಮಾರ್ಗಗಳೊಂದಿಗೆ ಬಹು-ಪುಟಗಳ ದೃಶ್ಯ PDF ಮಾರ್ಗದರ್ಶಿಯನ್ನು ರಚಿಸುತ್ತದೆ. ಮಾಹಿತಿ ಉದ್ದೇಶಕ್ಕೆ ಮಾತ್ರ; TheFork, Uber Eats, Just Eat ಅಥವಾ Too Good To Go ಜೊತೆ ಯಾವುದೇ ಸಂಬಂಧವಿಲ್ಲ. ಇದು ಆರ್ಡರ್ ಅಥವಾ ಬುಕಿಂಗ್ ಮಾಡುವುದಿಲ್ಲ, ಮತ್ತು Too Good To Go ನಲ್ಲಿ ಲೈವ್ ಸ್ಟಾಕ್ ಅಥವಾ ಅಲರ್ಜಿನ್-ಮುಕ್ತ ತಯಾರಿಕೆಯನ್ನು ಖಾತರಿಪಡಿಸುವುದಿಲ್ಲ; ಪದಾರ್ಥಗಳು ಮತ್ತು ಬೆಲೆಗಳನ್ನು ರೆಸ್ಟೋರೆಂಟ್‌ನಲ್ಲಿ ದೃಢಪಡಿಸಿ."
+          },
+          "ko-KR": {
+            "subtitle": "+50% 할인 및 Surprise Boxes",
+            "description": "Come Barato & Gratis는 스페인 내 주변 레스토랑을 검색하고, 공개 메뉴에서 2인 이상 기준 개별 요리와 장바구니를 최저가 순으로 비교하며, TheFork, Uber Eats, Just Eat의 최대 -50% 이상 공개 할인, 2x1 및 오늘의 메뉴를 강조하고, 우회 없이 동선에 맞는 Too Good To Go Surprise Boxes를 추가하며, 저장된 식단 제한에 따라 필터링하고, 최근 추천의 중복을 피한 뒤 실제 사진과 도보 경로가 포함된 다중 페이지 시각적 PDF 가이드를 생성합니다. 정보 제공 목적이며 TheFork, Uber Eats, Just Eat, Too Good To Go와 제휴 관계가 없습니다. 주문이나 예약을 처리하지 않으며, Too Good To Go의 실시간 재고나 알레르기 유발 물질 없는 조리를 보장하지 않으므로 재료와 가격은 매장에서 직접 확인하세요."
+          },
+          "lt-LT": {
+            "subtitle": "Nuolaidos +50% & Surprise Box",
+            "description": "Come Barato & Gratis ieško restoranų šalia jūsų Ispanijoje, iš viešų meniu palygina konkrečius patiekalus ir krepšelius 2 ar daugiau žmonių nuo pigiausio iki brangiausio, išryškina viešus iki -50% ir didesnius pasiūlymus, 2x1 bei dienos pietus platformose TheFork, Uber Eats ir Just Eat, prideda pakeliui be nukrypimų esančias Too Good To Go Surprise Boxes, filtruoja pagal jūsų išsaugotus mitybos apribojimus, nekartoja neseniai siūlytų vietų ir sukuria kelių puslapių vaizdinį PDF gidą su tikromis nuotraukomis bei pėsčiųjų maršrutais. Tik informacinis naudojimas; nėra susijęs su TheFork, Uber Eats, Just Eat ar Too Good To Go. Neatlieka užsakymų ar rezervacijų ir negarantuoja likučių realiuoju laiku Too Good To Go bei paruošimo be alergenų; sudėtį ir kainas pasitikslinkite įstaigoje."
+          },
+          "lv-LV": {
+            "subtitle": "Atlaides +50% & Surprise Box",
+            "description": "Come Barato & Gratis meklē restorānus jūsu tuvumā Spānijā, pēc publiskajām ēdienkartēm salīdzina konkrētus ēdienus un grozus 2 vai vairāk personām no lētākā uz dārgāko, izceļ publiskos piedāvājumus līdz -50% un vairāk, 2x1 un dienas piedāvājumus platformās TheFork, Uber Eats un Just Eat, pievieno pa ceļam bez līkuma esošās Too Good To Go Surprise Boxes, filtrē pēc jūsu saglabātajiem uztura ierobežojumiem, neatkārto nesenos ieteikumus un izveido vairāku lappušu vizuālu PDF ceļvedi ar īstām fotogrāfijām un gājēju maršrutiem. Tikai informatīvai lietošanai; bez saistības ar TheFork, Uber Eats, Just Eat vai Too Good To Go. Neveic pasūtījumus vai rezervācijas, kā arī negarantē reāllaika krājumus Too Good To Go vai pagatavošanu bez alergēniem; sastāvdaļas un cenas pārbaudiet iestādē."
+          },
+          "mk-MK": {
+            "subtitle": "Попусти +50% и Surprise Boxes",
+            "description": "Come Barato & Gratis пребарува ресторани околу вас во Шпанија, споредува конкретни јадења и корпи за 2 или повеќе лица подредени од најевтино кон најскапо од јавни менија, ги истакнува јавните понуди до -50% и повеќе, 2x1 и дневно мени на TheFork, Uber Eats и Just Eat, додава Too Good To Go Surprise Boxes што ви се по пат без скршнувања, филтрира според вашите зачувани прехранбени исклучувања, избегнува повторување на неодамнешни препораки и создава повеќестраничен визуелен PDF водич со реални фотографии и пешачки рути. Само за информативна употреба; без поврзаност со TheFork, Uber Eats, Just Eat или Too Good To Go. Не врши нарачки ниту резервации и не гарантира залиха во живо на Too Good To Go ниту подготовка без алергени; потврдете ги состојките и цените во локалот."
+          },
+          "ml-IN": {
+            "subtitle": "+50% ഓഫറുകൾ & Surprise Boxes",
+            "description": "Come Barato & Gratis സ്പെയിനിൽ നിങ്ങളുടെ ചുറ്റുമുള്ള റെസ്റ്റോറന്റുകൾ തിരയുന്നു, പൊതു മെനുകളിൽ നിന്ന് 2 അല്ലെങ്കിൽ അതിൽ കൂടുതൽ ആളുകൾക്കുള്ള നിർദ്ദിഷ്ട വിഭവങ്ങളും ബാസ്ക്കറ്റുകളും ഏറ്റവും വിലകുറഞ്ഞത് മുതൽ കൂടിയത് വരെ താരതമ്യം ചെയ്യുന്നു, TheFork, Uber Eats, Just Eat എന്നിവയിലെ -50% അല്ലെങ്കിൽ അതിൽ കൂടുതലുള്ള പൊതു ഓഫറുകളും 2x1 ഉം ഡെയ്‌ലി മെനുവും എടുത്തുകാണിക്കുന്നു, വഴിമാറാതെ നിങ്ങളുടെ യാത്രാമധ്യേയുള്ള Too Good To Go Surprise Boxes ചേർക്കുന്നു, നിങ്ങളുടെ സംരക്ഷിച്ച ഭക്ഷണ നിയന്ത്രണങ്ങൾക്കനുസരിച്ച് ഫിൽട്ടർ ചെയ്യുന്നു, അടുത്തകാലത്തെ ശുപാർശകൾ ആവർത്തിക്കുന്നത് ഒഴിവാക്കുന്നു, കൂടാതെ യഥാർത്ഥ ഫോട്ടോകളും നടക്കാനുള്ള വഴികളുമുള്ള ബഹു-പേജ് വിഷ്വൽ PDF ഗൈഡ് നിർമ്മിക്കുന്നു. വിവരാവശ്യത്തിന് മാത്രം; TheFork, Uber Eats, Just Eat, Too Good To Go എന്നിവയുമായി യാതൊരു ബന്ധവുമില്ല. ഓർഡറുകളോ റിസർവേഷനുകളോ നടത്തുന്നില്ല, Too Good To Go-യിലെ ലൈവ് സ്റ്റോക്കോ അലർജൻ രഹിത തയ്യാറാക്കലോ ഉറപ്പുനൽകുന്നില്ല; ചേരുവകളും വിലയും സ്ഥാപനവുമായി ഉറപ്പുവരുത്തുക."
+          },
+          "mn-MN": {
+            "subtitle": "+50% хямдрал ба Surprise Box",
+            "description": "Come Barato & Gratis нь Испанид таны ойр орчмын ресторануудыг хайж, нийтийн цэснээс 2 ба түүнээс дээш хүнд зориулсан тодорхой хоол, сагсыг хамгийн хямдаас үнэтэй рүү эрэмбэлэн харьцуулж, TheFork, Uber Eats, Just Eat дээрх -50% хүртэлх болон түүнээс дээш нийтийн хямдрал, 2x1, өдрийн цэсийг онцолж, тойрог хийхгүйгээр зам дагуух Too Good To Go Surprise Boxes-ийг нэмж, таны хадгалсан хоолны хязгаарлалтаар шүүн, сүүлийн үеийн зөвлөмжийг давтахгүйгээр бодит зураг, явган замтай олон хуудастай визуал PDF хөтөч бэлтгэнэ. Зөвхөн мэдээллийн зорилгоор; TheFork, Uber Eats, Just Eat болон Too Good To Go-той ямар ч хамааралгүй. Захиалга болон ширээ захиалга хийдэггүй бөгөөд Too Good To Go-ийн шууд үлдэгдэл эсвэл харшил үүсгэгчгүй бэлтгэлийг баталгаажуулахгүй; орц болон үнийг тухайн газраас лавлана уу."
+          },
+          "mr-IN": {
+            "subtitle": "+50% ऑफर्स आणि Surprise Box",
+            "description": "Come Barato & Gratis स्पेनमध्ये तुमच्या सभोवतालची रेस्टॉरंट्स शोधते, सार्वजनिक मेनूमधून 2 किंवा अधिक लोकांसाठी विशिष्ट पदार्थ आणि बास्केट्स स्वस्तापासून महागापर्यंत तुलना करते, TheFork, Uber Eats आणि Just Eat वरील -50% किंवा अधिकच्या सार्वजनिक ऑफर्स, 2x1 आणि डेली मेनू ठळक करते, वळसा न घेता मार्गावर मिळणारे Too Good To Go Surprise Boxes जोडते, तुमच्या जतन केलेल्या आहार निर्बंधांनुसार फिल्टर करते, अलीकडील शिफारसींची पुनरावृत्ती टाळते आणि खऱ्या फोटोंसह व चालण्याच्या मार्गांसह बहु-पृष्ठ व्हिज्युअल PDF मार्गदर्शक तयार करते. केवळ माहितीसाठी; TheFork, Uber Eats, Just Eat किंवा Too Good To Go शी कोणताही संबंध नाही. हे ऑर्डर किंवा आरक्षण करत नाही, आणि Too Good To Go मधील थेट साठा किंवा ॲलर्जीमुक्त तयारीची हमी देत नाही; घटक आणि किमतींची खात्री रेस्टॉरंटकडून करून घ्या."
+          },
+          "ms-MY": {
+            "subtitle": "Tawaran +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis mencari restoran di sekitar anda di Sepanyol, membandingkan hidangan khusus dan bakul untuk 2 orang atau lebih daripada termurah ke termahal berdasarkan menu awam, menonjolkan tawaran awam sehingga -50% atau lebih, 2x1 serta menu harian di TheFork, Uber Eats dan Just Eat, menambah Surprise Boxes Too Good To Go yang searah tanpa lencongan, menapis mengikut sekatan diet yang disimpan, mengelak pengulangan cadangan terkini serta menjana panduan visual PDF berbilang halaman dengan foto sebenar dan laluan berjalan kaki. Untuk maklumat sahaja; tiada kaitan dengan TheFork, Uber Eats, Just Eat mahupun Too Good To Go. Tidak membuat pesanan atau tempahan, serta tidak menjamin stok langsung di Too Good To Go atau penyediaan bebas alergen; sahkan bahan dan harga dengan premis."
+          },
+          "my-MM": {
+            "subtitle": "+50% လျှော့ဈေး Surprise Box",
+            "description": "Come Barato & Gratis သည် စပိန်နိုင်ငံအတွင်း သင့်အနီးရှိ စားသောက်ဆိုင်များကို ရှာဖွေပေးပြီး အများပြည်သူသုံး မီနူးများမှ လူ ၂ ဦးနှင့်အထက်အတွက် ဟင်းလျာများနှင့် ခြင်းတောင်းများကို အသက်သာဆုံးမှ အမြင့်ဆုံးသို့ နှိုင်းယှဉ်ပေးကာ TheFork၊ Uber Eats နှင့် Just Eat တို့ရှိ -50% နှင့်အထက် လျှော့ဈေးများ၊ 2x1 နှင့် နေ့စဉ်မီနူးများကို ဖော်ပြပေးပါသည်။ လမ်းကြောင်းမလွဲဘဲ လမ်းကြုံဝင်နိုင်သော Too Good To Go Surprise Boxes များကို ထည့်သွင်းပေးပြီး သိမ်းဆည်းထားသော အစားအသောက်ကန့်သတ်ချက်များအလိုက် စစ်ထုတ်ကာ မကြာသေးမီက အကြံပြုချက်များ ထပ်မံမပါဝင်စေဘဲ ဓာတ်ပုံအစစ်များနှင့် လမ်းလျှောက်လမ်းကြောင်းများပါသော စာမျက်နှာများစွာပါ PDF လမ်းညွှန်ကို ဖန်တီးပေးပါသည်။ သတင်းအချက်အလက်အတွက်သာ ဖြစ်ပြီး TheFork၊ Uber Eats၊ Just Eat သို့မဟုတ် Too Good To Go တို့နှင့် ဆက်စပ်မှု မရှိပါ။ အော်ဒါမှာခြင်း သို့မဟုတ် ကြိုတင်စာရင်းသွင်းခြင်း မပြုလုပ်သလို Too Good To Go ၏ လက်ရှိလက်ကျန် သို့မဟုတ် ဓာတ်မတည့်မှုကင်းစင်သော ချက်ပြုတ်မှုကိုလည်း အာမမခံပါ။ ပါဝင်ပစ္စည်းနှင့် ဈေးနှုန်းများကို ဆိုင်နှင့် တိုက်ရိုက်အတည်ပြုပါ။"
+          },
+          "nb-NO": {
+            "subtitle": "Tilbud +50% og Surprise Boxes",
+            "description": "Come Barato & Gratis søker etter restauranter rundt deg i Spania, sammenligner konkrete retter og kurver for 2 eller flere personer sortert fra billigst til dyrest fra offentlige menyer, fremhever offentlige tilbud på opptil -50 % eller mer, 2-for-1 og dagens meny på TheFork, Uber Eats og Just Eat, legger til Too Good To Go Surprise Boxes langs ruten din uten omveier, filtrerer etter dine lagrede kostrestriksjoner, unngår å gjenta nylige anbefalinger og lager en flersidig visuell PDF-guide med ekte bilder og gangruter. Kun til informasjonsbruk; ingen tilknytning til TheFork, Uber Eats, Just Eat eller Too Good To Go. Utfører ikke bestillinger eller reservasjoner, og garanterer verken sanntidsbeholdning hos Too Good To Go eller allergenfri tilberedning; bekreft ingredienser og priser med stedet."
+          },
+          "nl-NL": {
+            "subtitle": "Deals +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis zoekt restaurants bij jou in de buurt in Spanje, vergelijkt specifieke gerechten en mandjes voor 2 of meer personen van goedkoopst naar duurst op basis van openbare menukaarten, licht openbare aanbiedingen tot -50% of meer, 2-voor-1 en dagmenu's op TheFork, Uber Eats en Just Eat uit, voegt Too Good To Go Surprise Boxes toe die zonder omweg op je route liggen, filtert op je opgeslagen dieetuitsluitingen, voorkomt herhaling van recente aanbevelingen en maakt een meerdelige visuele PDF-gids met echte foto's en wandelroutes. Alleen ter informatie; geen affiliatie met TheFork, Uber Eats, Just Eat of Too Good To Go. Plaatst geen bestellingen of reserveringen en garandeert geen live voorraad bij Too Good To Go of allergeenvrije bereiding; controleer ingrediënten en prijzen bij het restaurant."
+          },
+          "pa": {
+            "subtitle": "+50% ਆਫ਼ਰ ਅਤੇ Surprise Boxes",
+            "description": "Come Barato & Gratis ਸਪੇਨ ਵਿੱਚ ਤੁਹਾਡੇ ਆਲੇ-ਦੁਆਲੇ ਰੈਸਟੋਰੈਂਟ ਲੱਭਦਾ ਹੈ, ਜਨਤਕ ਮੀਨੂ ਤੋਂ 2 ਜਾਂ ਵੱਧ ਲੋਕਾਂ ਲਈ ਖਾਸ ਪਕਵਾਨਾਂ ਅਤੇ ਬਾਸਕੇਟਾਂ ਦੀ ਸਭ ਤੋਂ ਸਸਤੇ ਤੋਂ ਮਹਿੰਗੇ ਕ੍ਰਮ ਵਿੱਚ ਤੁਲਨਾ ਕਰਦਾ ਹੈ, TheFork, Uber Eats ਅਤੇ Just Eat 'ਤੇ -50% ਜਾਂ ਵੱਧ ਦੇ ਜਨਤਕ ਆਫ਼ਰ, 2x1 ਅਤੇ ਰੋਜ਼ਾਨਾ ਮੀਨੂ ਉਭਾਰਦਾ ਹੈ, ਬਿਨਾਂ ਵਾਧੂ ਚੱਕਰ ਦੇ ਰਸਤੇ ਵਿੱਚ ਆਉਣ ਵਾਲੇ Too Good To Go Surprise Boxes ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ, ਤੁਹਾਡੀਆਂ ਸੁਰੱਖਿਅਤ ਖੁਰਾਕ ਪਾਬੰਦੀਆਂ ਮੁਤਾਬਕ ਫਿਲਟਰ ਕਰਦਾ ਹੈ, ਹਾਲੀਆ ਸਿਫਾਰਸ਼ਾਂ ਨੂੰ ਦੁਹਰਾਉਣ ਤੋਂ ਬਚਦਾ ਹੈ ਅਤੇ ਅਸਲ ਫੋਟੋਆਂ ਤੇ ਪੈਦਲ ਰਸਤਿਆਂ ਵਾਲੀ ਬਹੁ-ਪੰਨਿਆਂ ਦੀ ਵਿਜ਼ੂਅਲ PDF ਗਾਈਡ ਬਣਾਉਂਦਾ ਹੈ। ਕੇਵਲ ਜਾਣਕਾਰੀ ਲਈ; TheFork, Uber Eats, Just Eat ਜਾਂ Too Good To Go ਨਾਲ ਕੋਈ ਸਬੰਧ ਨਹੀਂ। ਇਹ ਆਰਡਰ ਜਾਂ ਬੁਕਿੰਗ ਨਹੀਂ ਕਰਦਾ ਅਤੇ ਨਾ ਹੀ Too Good To Go 'ਤੇ ਲਾਈਵ ਸਟਾਕ ਜਾਂ ਐਲਰਜੀ-ਮੁਕਤ ਤਿਆਰੀ ਦੀ ਗਾਰੰਟੀ ਦਿੰਦਾ ਹੈ; ਸਮੱਗਰੀ ਅਤੇ ਕੀਮਤਾਂ ਦੀ ਪੁਸ਼ਟੀ ਰੈਸਟੋਰੈਂਟ ਤੋਂ ਕਰੋ।"
+          },
+          "pl-PL": {
+            "subtitle": "Oferty +50% i Surprise Boxes",
+            "description": "Come Barato & Gratis wyszukuje restauracje w Twojej okolicy w Hiszpanii, porównuje konkretne dania i koszyki dla 2 lub więcej osób od najtańszych do najdroższych na podstawie publicznych menu, wyróżnia publiczne promocje do -50% i więcej, 2w1 oraz menu dnia na TheFork, Uber Eats i Just Eat, dodaje Surprise Boxes z Too Good To Go po drodze bez zbędnych objazdów, filtruje według zapisanych wykluczeń dietetycznych, unika powtarzania niedawnych poleceń i tworzy wielostronicowy wizualny przewodnik PDF z prawdziwymi zdjęciami i trasami pieszymi. Wyłącznie w celach informacyjnych; brak powiązań z TheFork, Uber Eats, Just Eat ani Too Good To Go. Nie składa zamówień ani rezerwacji oraz nie gwarantuje dostępności na żywo w Too Good To Go ani przygotowania bez alergenów; składniki i ceny potwierdź w lokalu."
+          },
+          "pt-BR": {
+            "subtitle": "Ofertas +50% e Surprise Boxes",
+            "description": "Come Barato & Gratis busca restaurantes perto de você na Espanha, compara pratos específicos e cestas para 2 ou mais pessoas ordenados do mais barato ao mais caro a partir de cardápios públicos, destaca ofertas públicas de até -50% ou mais, 2 por 1 e menu do dia no TheFork, Uber Eats e Just Eat, adiciona Surprise Boxes do Too Good To Go que fiquem no seu caminho sem desvios, filtra conforme suas exclusões alimentares salvas, evita repetir recomendações recentes e gera um guia visual em PDF multipágina com fotos reais e rotas a pé. Uso informativo; sem afiliação com TheFork, Uber Eats, Just Eat ou Too Good To Go. Não realiza pedidos nem reservas, nem garante estoque em tempo real no Too Good To Go ou preparo livre de alérgenos; confirme ingredientes e preços com o estabelecimento."
+          },
+          "pt-PT": {
+            "subtitle": "Ofertas +50% e Surprise Boxes",
+            "description": "O Come Barato & Gratis procura restaurantes à sua volta em Espanha, compara pratos específicos e cestos para 2 ou mais pessoas ordenados do mais barato para o mais caro a partir de ementas públicas, destaca ofertas públicas de até -50% ou mais, 2x1 e menu do dia no TheFork, Uber Eats e Just Eat, adiciona Surprise Boxes do Too Good To Go que fiquem de caminho sem desvios, filtra segundo as suas exclusões alimentares guardadas, evita repetir recomendações recentes e gera um guia visual em PDF multipágina com fotografias reais e percursos a pé. Uso informativo; sem afiliação com TheFork, Uber Eats, Just Eat nem Too Good To Go. Não efetua pedidos nem reservas, nem garante stock em tempo real no Too Good To Go ou preparação isenta de alergénios; confirme ingredientes e preços com o estabelecimento."
+          },
+          "ro-RO": {
+            "subtitle": "Oferte +50% și Surprise Boxes",
+            "description": "Come Barato & Gratis caută restaurante în jurul tău în Spania, compară preparate specifice și coșuri pentru 2 sau mai multe persoane ordonate de la cel mai ieftin la cel mai scump din meniuri publice, evidențiază oferte publice de până la -50% sau mai mult, 2x1 și meniul zilei pe TheFork, Uber Eats și Just Eat, adaugă Surprise Boxes de la Too Good To Go aflate în drumul tău fără ocoluri, filtrează după excluderile alimentare salvate, evită repetarea recomandărilor recente și generează un ghid vizual PDF cu mai multe pagini, fotografii reale și trasee pietonale. Scop exclusiv informativ; fără afiliere cu TheFork, Uber Eats, Just Eat sau Too Good To Go. Nu plasează comenzi sau rezervări și nu garantează stocul în timp real pe Too Good To Go ori prepararea fără alergeni; confirmă ingredientele și prețurile cu localul."
+          },
+          "ru-RU": {
+            "subtitle": "Скидки +50% и Surprise Boxes",
+            "description": "Come Barato & Gratis ищет рестораны рядом с вами в Испании, сравнивает конкретные блюда и корзины на 2 и более человек от самых дешёвых к дорогим по публичным меню, выделяет открытые акции до -50% и выше, 2x1 и комплексные обеды на TheFork, Uber Eats и Just Eat, добавляет Surprise Boxes от Too Good To Go по пути без лишних крюков, фильтрует по сохранённым диетическим ограничениям, не повторяет недавние рекомендации и формирует многостраничный визуальный PDF-гид с реальными фото и пешими маршрутами. Только для справки; не аффилировано с TheFork, Uber Eats, Just Eat или Too Good To Go. Не оформляет заказы и бронирования, не гарантирует наличие в реальном времени в Too Good To Go или отсутствие аллергенов; уточняйте состав и цены в заведении."
+          },
+          "sk-SK": {
+            "subtitle": "Zľavy +50 % a Surprise Boxes",
+            "description": "Come Barato & Gratis vyhľadáva reštaurácie vo vašom okolí v Španielsku, porovnáva konkrétne jedlá a košíky pre 2 a viac osôb zoradené od najlacnejších po najdrahšie z verejných jedálnych lístkov, zvýrazňuje verejné ponuky až -50 % a viac, 2x1 a denné menu na TheFork, Uber Eats a Just Eat, pridáva Surprise Boxes z Too Good To Go po ceste bez zachádzok, filtruje podľa vašich uložených stravovacích obmedzení, vyhýba sa opakovaniu nedávnych odporúčaní a vytvára viacstranového vizuálneho PDF sprievodcu so skutočnými fotografiami a pešími trasami. Len na informačné účely; bez prepojenia s TheFork, Uber Eats, Just Eat ani Too Good To Go. Nevykonáva objednávky ani rezervácie a nezaručuje aktuálne zásoby v Too Good To Go ani prípravu bez alergénov; zloženie a ceny si overte v podniku."
+          },
+          "sl-SI": {
+            "subtitle": "Ponudbe +50% in Surprise Box",
+            "description": "Come Barato & Gratis išče restavracije v vaši bližini v Španiji, iz javnih jedilnikov primerja posamezne jedi in košarice za 2 ali več oseb od najcenejših do najdražjih, izpostavlja javne ponudbe do -50 % ali več, 2 za 1 in dnevne menije na platformah TheFork, Uber Eats in Just Eat, dodaja Too Good To Go Surprise Boxes, ki so vam na poti brez ovinkov, filtrira glede na vaše shranjene prehranske omejitve, preprečuje ponavljanje nedavnih priporočil in ustvari večstranski vizualni PDF vodnik z resničnimi fotografijami ter pešpotmi. Samo v informativne namene; brez povezave s TheFork, Uber Eats, Just Eat ali Too Good To Go. Ne opravlja naročil ali rezervacij ter ne zagotavlja zalog v živo na Too Good To Go ali priprave brez alergenov; sestavine in cene preverite pri ponudniku."
+          },
+          "so-SO": {
+            "subtitle": "Dhimis +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis wuxuu Spain gudaheeda ka raadiyaa maqaayadaha kuugu dhow, wuxuu barbardhigaa cuntooyin gaar ah iyo dambiilo loogu talagalay 2 qof ama ka badan oo laga soo xulay liisaska guud iyagoo laga bilaabo kuwa ugu jaban ilaa kuwa ugu qaalisan, wuxuu muujiyaa dalabyada guud ee ilaa -50% ama ka badan, 2x1 iyo liiska maalinlaha ah ee TheFork, Uber Eats iyo Just Eat, wuxuu ku daraa Too Good To Go Surprise Boxes oo jidkaaga ku yaalla leexasho la'aan, wuxuu ku kala shaandheeyaa xaddidaadaha cuntada ee kuu kaydsan, wuxuu ka fogaadaa ku celcelinta talooyinkii dhowaa, wuxuuna abuuraa hage muuqaal PDF ah oo bogag badan leh, sawirro dhab ah iyo waddooyin lugeyn ah. Ujeeddo wargelin oo keliya; wax xiriir ah lama laha TheFork, Uber Eats, Just Eat ama Too Good To Go. Ma sameeyo dalabyo ama ballansasho, mana dammaanad qaado kaydka tooska ah ee Too Good To Go ama diyaarinta aan lahayn wax xasaasiyad keena; ka hubi maaddooyinka iyo qiimaha maqaayadda."
+          },
+          "sq-AL": {
+            "subtitle": "Oferta +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis kërkon restorante pranë jush në Spanjë, krahason pjata specifike dhe shporta për 2 ose më shumë persona të renditura nga më e lira te më e shtrenjta nga menutë publike, nxjerr në pah oferta publike deri në -50% ose më shumë, 2x1 dhe menu ditore në TheFork, Uber Eats dhe Just Eat, shton Surprise Boxes të Too Good To Go që ju bien rrugës pa devijime, filtron sipas përjashtimeve tuaja të ruajtura ushqimore, shmang përsëritjen e rekomandimeve të fundit dhe krijon një udhëzues vizual PDF me shumë faqe me foto reale dhe itinerare në këmbë. Vetëm për përdorim informues; pa lidhje me TheFork, Uber Eats, Just Eat apo Too Good To Go. Nuk kryen porosi ose rezervime dhe nuk garanton stokun në kohë reale te Too Good To Go apo përgatitjen pa alergjenë; konfirmoni përbërësit dhe çmimet me lokalin."
+          },
+          "sr-RS": {
+            "subtitle": "Понуде +50% и Surprise Boxes",
+            "description": "Come Barato & Gratis проналази ресторане у вашој близини у Шпанији, пореди конкретна јела и корпе за 2 или више особа поређане од најјефтинијих ка најскупљим из јавних јеловника, издваја јавне понуде до -50% и више, 2x1 и дневне меније на платформама TheFork, Uber Eats и Just Eat, додаје Too Good To Go Surprise Boxes које су вам успут без скретања, филтрира према вашим сачуваним прехрамбеним искључењима, избегава понављање недавних препорука и генерише вишестранични визуелни PDF водич са стварним фотографијама и пешачким рутама. Само за информативну употребу; без повезаности са TheFork, Uber Eats, Just Eat или Too Good To Go. Не врши поруџбине ни резервације, нити гарантује стање уживо на Too Good To Go или припрему без алергена; проверите састојке и цене у локалу."
+          },
+          "sv-SE": {
+            "subtitle": "+50% rabatt & Surprise Boxes",
+            "description": "Come Barato & Gratis hittar restauranger nära dig i Spanien, jämför specifika rätter och korgar för 2 eller fler personer sorterade från billigast till dyrast utifrån offentliga menyer, lyfter fram offentliga erbjudanden på upp till -50 % eller mer, 2-för-1 och dagens meny på TheFork, Uber Eats och Just Eat, lägger till Too Good To Go Surprise Boxes längs din väg utan omvägar, filtrerar efter dina sparade kostbegränsningar, undviker att upprepa nya rekommendationer och skapar en flersidig visuell PDF-guide med riktiga foton och gångrutter. Endast för informationsbruk; ingen koppling till TheFork, Uber Eats, Just Eat eller Too Good To Go. Gör inga beställningar eller bokningar och garanterar varken lagersaldo i realtid på Too Good To Go eller allergenfri tillagning; bekräfta ingredienser och priser med restaurangen."
+          },
+          "sw-TZ": {
+            "subtitle": "Ofa +50% na Surprise Boxes",
+            "description": "Come Barato & Gratis hutafuta migahawa iliyo karibu nawe nchini Uhispania, hulinganisha vyakula mahususi na vikapu vya watu 2 au zaidi vilivyopangwa kutoka bei nafuu hadi ya juu kutoka menyu za umma, huangazia ofa za umma hadi -50% au zaidi, 2x1 na menyu ya siku kwenye TheFork, Uber Eats na Just Eat, huongeza Too Good To Go Surprise Boxes zilizo njiani mwako bila kupoteza njia, huchuja kulingana na vizuizi vyako vya lishe vilivyohifadhiwa, huepuka kurudia mapendekezo ya hivi karibuni na huunda mwongozo wa PDF wa kurasa nyingi wenye picha halisi na njia za kutembea. Kwa matumizi ya taarifa pekee; haina uhusiano na TheFork, Uber Eats, Just Eat wala Too Good To Go. Haifanyi oda wala uhifadhi wa meza, na haihakikishi upatikanaji wa moja kwa moja kwenye Too Good To Go au maandalizi yasiyo na vizio; thibitisha viungo na bei na mgahawa."
+          },
+          "ta-IN": {
+            "subtitle": "+50% சலுகை & Surprise Boxes",
+            "description": "Come Barato & Gratis ஸ்பெயினில் உங்கள் அருகிலுள்ள உணவகங்களைத் தேடுகிறது, பொது மெனுக்களிலிருந்து 2 அல்லது அதற்கு மேற்பட்ட நபர்களுக்கான குறிப்பிட்ட உணவுகள் மற்றும் கூடைகளை மலிவானதிலிருந்து விலையுயர்ந்ததாக ஒப்பிடுகிறது, TheFork, Uber Eats மற்றும் Just Eat இல் -50% அல்லது அதற்கு மேற்பட்ட பொது சலுகைகள், 2x1 மற்றும் தினசரி மெனுவை முன்னிலைப்படுத்துகிறது, சுற்றிச் செல்லாமல் உங்கள் வழியில் உள்ள Too Good To Go Surprise Boxes ஐச் சேர்க்கிறது, நீங்கள் சேமித்த உணவுத் தவிர்ப்புகளின்படி வடிகட்டுகிறது, சமீபத்திய பரிந்துரைகளைத் தவிர்த்து உண்மையான புகைப்படங்கள் மற்றும் நடைப்பாதைகளுடன் பல பக்க காட்சி PDF வழிகாட்டியை உருவாக்குகிறது. தகவல் பயன்பாட்டிற்கு மட்டுமே; TheFork, Uber Eats, Just Eat அல்லது Too Good To Go உடன் எந்தத் தொடர்பும் இல்லை. இது ஆர்டர்கள் அல்லது முன்பதிவுகளைச் செய்யாது, Too Good To Go இல் நேரடி இருப்பையோ ஒவ்வாமையற்ற தயாரிப்பையோ உறுதிப்படுத்தாது; பொருட்கள் மற்றும் விலைகளை உணவகத்தில் உறுதிப்படுத்தவும்."
+          },
+          "te-IN": {
+            "subtitle": "+50% ఆఫర్లు & Surprise Boxes",
+            "description": "Come Barato & Gratis స్పెయిన్‌లో మీ చుట్టుపక్కల ఉన్న రెస్టారెంట్లను వెతుకుతుంది, పబ్లిక్ మెనూల నుండి 2 లేదా అంతకంటే ఎక్కువ మంది కోసం ప్రత్యేక వంటకాలు మరియు బాస్కెట్లను చౌక నుండి ఖరీదు వరకు క్రమంలో పోల్చుతుంది, TheFork, Uber Eats మరియు Just Eat లో -50% లేదా అంతకంటే ఎక్కువ పబ్లిక్ ఆఫర్లు, 2x1 మరియు డైలీ మెనూలను హైలైట్ చేస్తుంది, దారి మళ్ళకుండా మీ మార్గంలో ఉన్న Too Good To Go Surprise Boxes ను జతచేస్తుంది, మీరు సేవ్ చేసిన ఆహార పరిమితుల ప్రకారం ఫిల్టర్ చేస్తుంది, ఇటీవలి సిఫార్సులను పునరావృతం చేయకుండా నిజమైన ఫోటోలు మరియు నడక మార్గాలతో బహుళ-పేజీ విజువల్ PDF గైడ్‌ను రూపొందిస్తుంది. సమాచారం కోసం మాత్రమే; TheFork, Uber Eats, Just Eat లేదా Too Good To Go తో ఎటువంటి అనుబంధం లేదు. ఇది ఆర్డర్లు లేదా రిజర్వేషన్లు చేయదు, మరియు Too Good To Go లో లైవ్ స్టాక్ లేదా అలెర్జీ-రహిత తయారీకి హామీ ఇవ్వదు; పదార్థాలు మరియు ధరలను రెస్టారెంట్ వద్ద నిర్ధారించుకోండి."
+          },
+          "th-TH": {
+            "subtitle": "ดีล +50% และ Surprise Boxes",
+            "description": "Come Barato & Gratis ค้นหาร้านอาหารรอบตัวคุณในสเปน เปรียบเทียบเมนูจานเดี่ยวและตะกร้าอาหารสำหรับ 2 คนขึ้นไปเรียงจากถูกที่สุดไปแพงที่สุดจากเมนูสาธารณะ ไฮไลต์ดีลสาธารณะลดสูงสุด -50% ขึ้นไป โปร 2x1 และเมนูประจำวันบน TheFork, Uber Eats และ Just Eat เพิ่ม Surprise Boxes จาก Too Good To Go ที่อยู่ระหว่างทางโดยไม่ต้องออกนอกเส้นทาง กรองตามข้อจำกัดด้านอาหารที่คุณบันทึกไว้ หลีกเลี่ยงการแนะนำซ้ำกับรายการล่าสุด และสร้างคู่มือ PDF ภาพหลายหน้าพร้อมรูปถ่ายจริงและเส้นทางเดินเท้า ใช้เพื่อข้อมูลเท่านั้น ไม่มีความเกี่ยวข้องกับ TheFork, Uber Eats, Just Eat หรือ Too Good To Go ไม่ได้ทำการสั่งซื้อหรือจองโต๊ะ และไม่รับประกันสต็อกแบบเรียลไทม์บน Too Good To Go หรือการปรุงที่ปราศจากสารก่อภูมิแพ้ โปรดตรวจสอบส่วนผสมและราคากับทางร้าน"
+          },
+          "tl": {
+            "subtitle": "Deal +50% at Surprise Boxes",
+            "description": "Naghahanap ang Come Barato & Gratis ng mga restaurant sa paligid mo sa Spain, ikinukumpara ang mga partikular na putahe at basket para sa 2 o higit pang tao mula pinakamura hanggang pinakamahal mula sa mga pampublikong menu, itinatampok ang mga pampublikong promo hanggang -50% o higit pa, 2x1 at daily menu sa TheFork, Uber Eats at Just Eat, idinadagdag ang mga Surprise Boxes ng Too Good To Go na nasa daraanan mo nang walang detour, nagsasala ayon sa iyong naka-save na dietary exclusions, umiiwas sa pag-uulit ng mga kamakailang rekomendasyon, at gumagawa ng multipage visual PDF guide na may totoong mga larawan at walking routes. Para sa impormasyon lamang; walang kaugnayan sa TheFork, Uber Eats, Just Eat o Too Good To Go. Hindi ito naglalagay ng order o reservation, at hindi ginagarantiya ang live stock sa Too Good To Go o paghahandang walang allergen; kumpirmahin ang mga sangkap at presyo sa kainan."
+          },
+          "tr-TR": {
+            "subtitle": "+50% Fırsat & Surprise Boxes",
+            "description": "Come Barato & Gratis, İspanya'da çevrenizdeki restoranları arar, 2 veya daha fazla kişi için belirli yemekleri ve sepetleri halka açık menülerden en ucuzdan en pahalıya sıralayarak karşılaştırır, TheFork, Uber Eats ve Just Eat üzerindeki -%50 ve üzeri halka açık fırsatları, 2 al 1 öde ve günün menüsü promosyonlarını öne çıkarır, yolunuzun üzerindeki Too Good To Go Surprise Boxes seçeneklerini sapma yapmadan ekler, kayıtlı beslenme kısıtlamalarınıza göre filtreler, son önerileri tekrarlamaktan kaçınır ve gerçek fotoğraflar ile yürüyüş rotaları içeren çok sayfalı görsel bir PDF rehberi oluşturur. Yalnızca bilgilendirme amaçlıdır; TheFork, Uber Eats, Just Eat veya Too Good To Go ile hiçbir bağlantısı yoktur. Sipariş veya rezervasyon yapmaz, Too Good To Go'da anlık stok ya da alerjensiz hazırlık garantisi vermez; içerikleri ve fiyatları işletmeyle teyit edin."
+          },
+          "uk-UA": {
+            "subtitle": "Знижки +50% і Surprise Boxes",
+            "description": "Come Barato & Gratis шукає ресторани поруч із вами в Іспанії, порівнює конкретні страви та кошики для 2 і більше осіб від найдешевших до найдорожчих за відкритими меню, виділяє публічні пропозиції до -50% і більше, 2x1 та денні меню на TheFork, Uber Eats і Just Eat, додає Surprise Boxes від Too Good To Go по дорозі без зайвих гаків, фільтрує за збереженими дієтичними винятками, не повторює нещодавні рекомендації та створює багатосторінковий візуальний PDF-гід із реальними фото й пішими маршрутами. Лише для довідки; не пов'язано з TheFork, Uber Eats, Just Eat чи Too Good To Go. Не оформлює замовлення або бронювання, не гарантує наявність у реальному часі в Too Good To Go чи приготування без алергенів; уточнюйте інгредієнти та ціни в закладі."
+          },
+          "ur": {
+            "subtitle": "+50% آفرز اور Surprise Boxes",
+            "description": "Come Barato & Gratis اسپین میں آپ کے آس پاس ریستوراں تلاش کرتا ہے، عوامی مینو سے 2 یا زائد افراد کے لیے مخصوص ڈشز اور باسکٹس کا سب سے سستے سے مہنگے کی ترتیب میں موازنہ کرتا ہے، TheFork، Uber Eats اور Just Eat پر -50% یا اس سے زیادہ کی عوامی آفرز، 2x1 اور یومیہ مینو کو نمایاں کرتا ہے، بغیر چکر لگائے آپ کے راستے میں آنے والے Too Good To Go Surprise Boxes شامل کرتا ہے، آپ کی محفوظ کردہ غذائی پابندیوں کے مطابق فلٹر کرتا ہے، حالیہ تجاویز کو دہرانے سے گریز کرتا ہے اور حقیقی تصاویر اور پیدل راستوں کے ساتھ کثیر صفحات پر مشتمل بصری PDF گائیڈ تیار کرتا ہے۔ صرف معلومات کے لیے؛ TheFork، Uber Eats، Just Eat یا Too Good To Go سے کوئی وابستگی نہیں۔ یہ آرڈر یا ریزرویشن نہیں کرتا، اور نہ ہی Too Good To Go پر لائیو اسٹاک یا الرجی سے پاک تیاری کی ضمانت دیتا ہے؛ اجزاء اور قیمتوں کی تصدیق ریستوراں سے کریں۔"
+          },
+          "vi-VN": {
+            "subtitle": "Ưu đãi +50% & Surprise Boxes",
+            "description": "Come Barato & Gratis tìm kiếm nhà hàng quanh bạn tại Tây Ban Nha, so sánh các món cụ thể và giỏ đồ ăn cho từ 2 người trở lên sắp xếp từ rẻ nhất đến đắt nhất dựa trên thực đơn công khai, làm nổi bật các ưu đãi công khai đến -50% trở lên, mua 1 tặng 1 (2x1) và thực đơn trong ngày trên TheFork, Uber Eats và Just Eat, bổ sung các Surprise Boxes của Too Good To Go tiện đường mà không phải đi vòng, lọc theo chế độ ăn kiêng đã lưu của bạn, tránh lặp lại các gợi ý gần đây và tạo cẩm nang PDF trực quan nhiều trang kèm ảnh thật và lộ trình đi bộ. Chỉ mang tính tham khảo; không liên kết với TheFork, Uber Eats, Just Eat hay Too Good To Go. Không thực hiện đặt món hay đặt bàn, không đảm bảo tồn kho theo thời gian thực trên Too Good To Go hay chế biến không chứa chất gây dị ứng; hãy xác nhận nguyên liệu và giá cả trực tiếp với quán."
+          },
+          "zh-CN": {
+            "subtitle": "+50% 优惠与 Surprise Boxes",
+            "description": "Come Barato & Gratis 搜索你在西班牙周边的餐厅，根据公开菜单按从便宜到贵的顺序对比 2 人及以上的具体菜品与套餐篮，重点展示 TheFork、Uber Eats 和 Just Eat 上高达 -50% 及以上折扣、买一送一（2x1）和每日特价套餐，顺路加入无需绕行的 Too Good To Go Surprise Boxes，按你保存的饮食忌口进行筛选，避免重复近期推荐，并生成附带实拍图片和步行路线的多页可视化 PDF 指南。仅供参考；与 TheFork、Uber Eats、Just Eat 及 Too Good To Go 无任何关联。不提供下单或预订服务，也不保证 Too Good To Go 的实时库存或无过敏原制作；请向餐厅确认食材与价格。"
+          },
+          "zh-HK": {
+            "subtitle": "+50% 優惠及 Surprise Boxes",
+            "description": "Come Barato & Gratis 搜尋你在西班牙周邊的餐廳，根據公開餐牌按由平到貴排序對比 2 人或以上的指定菜式與餐點組合，重點標示 TheFork、Uber Eats 和 Just Eat 上高達 -50% 或以上優惠、買一送一（2x1）及每日套餐，順路加入無需繞路的 Too Good To Go Surprise Boxes，按你已儲存的飲食禁忌篩選，避免重複近期推介，並生成附有實景相片及步行路線的多頁視覺化 PDF 指南。僅供參考；與 TheFork、Uber Eats、Just Eat 及 Too Good To Go 並無任何聯繫。不提供落單或訂座服務，亦不保證 Too Good To Go 的即時存貨或無致敏原製作；請向餐廳核實食材及價格。"
+          },
+          "zh-TW": {
+            "subtitle": "+50% 優惠與 Surprise Boxes",
+            "description": "Come Barato & Gratis 搜尋你在西班牙周邊的餐廳，依據公開菜單由便宜到貴比較 2 人以上的指定餐點與組合，重點呈現 TheFork、Uber Eats 和 Just Eat 上高達 -50% 以上折扣、買一送一（2x1）與每日套餐，順路加入不需繞道的 Too Good To Go Surprise Boxes，依照你儲存的飲食禁忌進行篩選，避免重複近期推薦，並產出附有實拍照片與步行路線的多頁視覺化 PDF 指南。僅供參考；與 TheFork、Uber Eats、Just Eat 及 Too Good To Go 均無關聯。不提供訂餐或訂位服務，亦不保證 Too Good To Go 的即時庫存或無過敏原製作；請向店家確認食材與價格。"
+          }
         }
       }
     }

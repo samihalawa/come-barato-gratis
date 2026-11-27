@@ -3,9 +3,9 @@
 Encuentra **platos específicos baratos**, **ofertas públicas de restaurantes hasta -50% y promos 2x1** (TheFork, Uber Eats, Just Eat, menú del día) y **Surprise Boxes de Too Good To Go de paso** a tu alrededor en España — adaptado a tus exclusiones dietéticas, sin repetir sitios recientes y con **guías visuales PDF multipágina**.
 
 ## Authentication & Setup
-- **Remote MCP Endpoint:** `https://comebarato.megawebs.com/mcp`
+- **Remote MCP Endpoint:** `https://come.cheap/mcp`
 - **OAuth 2.1:** Conecta directamente en ChatGPT o Claude mediante Megawebs Account (`https://auth.megawebs.com`).
-- **Personal Bearer Token:** Gestiona tus preferencias guardadas y tokens CLI opcionales en `https://comebarato.megawebs.com/account`.
+- **Personal Bearer Token:** Gestiona tus preferencias guardadas y tokens CLI opcionales en `https://come.cheap/account`.
 
 ## Tools
 - `comebarato_get_profile` — Carga exclusiones dietéticas, gustos, barrios habituales, idioma, comensales y presupuesto.
@@ -19,7 +19,7 @@ Encuentra **platos específicos baratos**, **ofertas públicas de restaurantes h
 Come Barato & Gratis (`come-barato-gratis`) es una herramienta informativa de descubrimiento. No está afiliada con TheFork, Uber Eats, Just Eat ni Too Good To Go, no realiza pedidos ni reservas de mesas y no garantiza stock en vivo de Too Good To Go ni preparación libre de alérgenos. Confirma siempre los ingredientes y precios finales con el local.
 
 ## Links
-- Website & Account: `https://comebarato.megawebs.com`
-- Support: `https://comebarato.megawebs.com/support`
-- Privacy Policy: `https://comebarato.megawebs.com/privacy`
-- Terms of Service: `https://comebarato.megawebs.com/terms`
+- Website & Account: `https://come.cheap`
+- Support: `https://come.cheap/support`
+- Privacy Policy: `https://come.cheap/privacy`
+- Terms of Service: `https://come.cheap/terms`

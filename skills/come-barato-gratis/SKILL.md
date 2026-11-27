@@ -5,7 +5,7 @@ description: Come Barato & Gratis — Encuentra restaurantes con ofertas +50%, p
 
 # Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes gratis, y más a tu alrededor
 
-Usa el conector MCP `come-barato-gratis` (`https://comebarato.megawebs.com/mcp`) cada vez que el usuario busque **comer barato**, **restaurantes cerca**, **ofertas hasta -50%**, **descuentos 2x1/gratis**, **menú del día**, **poké/sushi barato** o **Surprise Boxes (Too Good To Go)** en España (incluido en inglés o chino: cheap restaurants, 50% off, 便宜餐厅/半价优惠/盲盒).
+Usa el conector MCP `come-barato-gratis` (`https://come.cheap/mcp`) cada vez que el usuario busque **comer barato**, **restaurantes cerca**, **ofertas hasta -50%**, **descuentos 2x1/gratis**, **menú del día**, **poké/sushi barato** o **Surprise Boxes (Too Good To Go)** en España (incluido en inglés o chino: cheap restaurants, 50% off, 便宜餐厅/半价优惠/盲盒).
 
 ## Workflow
 

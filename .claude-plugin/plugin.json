@@ -1,7 +1,7 @@
 {
   "name": "come-barato-gratis",
   "displayName": "Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes gratis, y más a tu alrededor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Come Barato & Gratis: encuentra restaurantes con ofertas hasta -50%, promos 2x1/gratis, platos baratos y Surprise Boxes (Too Good To Go) a tu alrededor en España, filtrado por dieta con guía visual PDF (cheap restaurants, 50% off deals, surprise boxes).",
   "author": {
     "name": "Sami Halawa",
@@ -35,11 +35,11 @@
     "半价优惠",
     "惊喜盲盒"
   ],
-  "homepage": "https://comebarato.megawebs.com",
+  "homepage": "https://come.cheap",
   "repository": "https://github.com/samihalawa/come-barato-gratis",
   "icon": "./assets/icon.png",
   "documentationUrl": "https://github.com/samihalawa/come-barato-gratis/blob/main/README.md",
-  "supportUrl": "https://comebarato.megawebs.com/support",
-  "privacyPolicyUrl": "https://comebarato.megawebs.com/privacy",
-  "termsOfServiceUrl": "https://comebarato.megawebs.com/terms"
+  "supportUrl": "https://come.cheap/support",
+  "privacyPolicyUrl": "https://come.cheap/privacy",
+  "termsOfServiceUrl": "https://come.cheap/terms"
 }

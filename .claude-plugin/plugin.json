@@ -1,0 +1,37 @@
+{
+  "name": "plato-espana",
+  "displayName": "Plato — Spain Restaurant & Dish Deals",
+  "version": "1.0.0",
+  "description": "Discover specific dishes, sourced menu prices, public restaurant offers (such as TheFork, Uber Eats, and Just Eat listings), and on-route Too Good To Go pickup suggestions in Spain (restaurantes, cartas y ofertas de platos en España).",
+  "author": {
+    "name": "Sami Halawa",
+    "email": "sami@samihalawa.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "spain",
+    "España",
+    "restaurants",
+    "restaurantes",
+    "dishes",
+    "platos",
+    "deals",
+    "ofertas",
+    "descuentos",
+    "TheFork",
+    "Too Good To Go",
+    "Madrid",
+    "Barcelona",
+    "poke",
+    "sushi",
+    "dietary",
+    "menu"
+  ],
+  "homepage": "https://plato.megawebs.com",
+  "repository": "https://github.com/samihalawa/plato-espana",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/samihalawa/plato-espana/blob/main/README.md",
+  "supportUrl": "https://plato.megawebs.com/support",
+  "privacyPolicyUrl": "https://plato.megawebs.com/privacy",
+  "termsOfServiceUrl": "https://plato.megawebs.com/terms"
+}

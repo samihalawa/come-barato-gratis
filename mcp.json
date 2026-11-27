@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "plato-espana": {
+      "type": "http",
+      "url": "https://plato.megawebs.com/mcp"
+    }
+  }
+}

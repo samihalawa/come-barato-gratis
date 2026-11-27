@@ -1,0 +1,10 @@
+{
+  "name": "plato-espana",
+  "version": "1.0.0",
+  "description": "Discover specific dishes, sourced menu prices, public restaurant offers & on-route Too Good To Go pickup suggestions in Spain with visual PDF guides.",
+  "author": {
+    "name": "Sami Halawa",
+    "email": "sami@samihalawa.com"
+  },
+  "mcpServers": "./mcp.json"
+}

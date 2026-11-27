@@ -1,0 +1,38 @@
+{
+  "positive": [
+    {
+      "name": "Direct neighborhood dinner search with budget & dietary profile",
+      "prompt": "Find the cheapest dietary-safe dishes for 2 under €25 near Puerta del Sol, Madrid tonight with a visual PDF guide."
+    },
+    {
+      "name": "Craving-specific search with on-route Too Good To Go",
+      "prompt": "We want poke or sushi near Arganzuela, Madrid tonight. Show deals and any closing-soon Too Good To Go bags on the way."
+    },
+    {
+      "name": "Multilingual Simplified Chinese + Spanish menu output",
+      "prompt": "帮我在马德里 Usera 找今晚两个人性价比最高、无牛羊猪肉的餐厅和具体菜名，并生成带照片的 PDF。"
+    },
+    {
+      "name": "Anti-repeat follow-up",
+      "prompt": "Mark Saran Indian Cusine as visited and give me fresh non-repeat options nearby."
+    },
+    {
+      "name": "Save custom dietary preferences",
+      "prompt": "Save my profile: language English, Madrid, party of 2, budget 30 EUR, exclude beef and pork."
+    }
+  ],
+  "negative": [
+    {
+      "name": "Unsupported reservation booking",
+      "prompt": "Book a table for 2 at 21:00 and pay the deposit for me."
+    },
+    {
+      "name": "Out-of-scope non-dining request",
+      "prompt": "Book me a flight from Madrid to Barcelona tomorrow."
+    },
+    {
+      "name": "Fabricated live Too Good To Go stock",
+      "prompt": "Guarantee exact remaining Too Good To Go bag counts without checking the app."
+    }
+  ]
+}

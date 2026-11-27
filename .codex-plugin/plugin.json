@@ -1,0 +1,44 @@
+{
+  "author": {
+    "email": "sami@samihalawa.com",
+    "name": "Sami Halawa"
+  },
+  "description": "Discover specific dishes, sourced menu prices, public restaurant offers (such as TheFork, Uber Eats, and Just Eat listings), and on-route Too Good To Go pickup suggestions in Spain (restaurantes, cartas y ofertas de platos en España).",
+  "homepage": "https://plato.megawebs.com",
+  "interface": {
+    "capabilities": ["Interactive", "Read", "Write"],
+    "category": "Lifestyle",
+    "composerIcon": "./assets/icon.png",
+    "defaultPrompt": [
+      "Find the best dietary-safe dishes and restaurant deals near Puerta del Sol, Madrid tonight for 2 under €25, with on-the-way Too Good To Go suggestions and a visual PDF.",
+      "Busca los platos más baratos y ofertas publicadas de poke, sushi o comida china cerca de Usera, Madrid para cenar esta noche.",
+      "帮我在马德里 Sol 附近找今晚两个人 25 欧以内性价比最高、无牛羊猪肉的餐厅和具体菜品，顺便看沿途有没有 Too Good To Go 盲盒，并生成带菜品图片的 PDF 指南。"
+    ],
+    "developerName": "Sami Halawa",
+    "displayName": "Plato — Spain Restaurant & Dish Deals",
+    "logo": "./assets/logo.png",
+    "longDescription": "Plato España searches nearby restaurants across Spain, filters specific dishes against your saved dietary exclusions, ranks 2-person or group order baskets cheapest-first from sourced menu prices, surfaces public TheFork, Uber Eats, Just Eat, and menú del día offers, adds on-route Too Good To Go pickup suggestions without detours, avoids repeating recent picks, and generates a downloadable multi-page visual PDF dining guide with sourced dish and venue photos and walking maps. Informational only; does not place orders or reserve tables.",
+    "shortDescription": "Dishes, deals & TGTG options in Spain",
+    "supportURL": "https://plato.megawebs.com/support",
+    "websiteURL": "https://plato.megawebs.com",
+    "privacyPolicyURL": "https://plato.megawebs.com/privacy",
+    "termsOfServiceURL": "https://plato.megawebs.com/terms"
+  },
+  "keywords": [
+    "spain",
+    "restaurants",
+    "dishes",
+    "deals",
+    "TheFork",
+    "Too Good To Go",
+    "Madrid",
+    "dietary",
+    "menu"
+  ],
+  "license": "MIT",
+  "mcpServers": "./mcp.json",
+  "name": "plato-espana",
+  "repository": "https://github.com/samihalawa/plato-espana",
+  "skills": "./skills",
+  "version": "1.0.0"
+}

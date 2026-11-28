@@ -1,25 +1,30 @@
-# Come Barato & Gratis — Restaurantes Ofertas +50%, Surprise Boxes gratis, y más a tu alrededor
+# Come Barato & Gratis — Restaurantes Ofertas +50%, promos 2x1/gratis, Surprise Boxes y más
 
-Encuentra **platos específicos baratos**, **ofertas públicas de restaurantes hasta -50% y promos 2x1** (TheFork, Uber Eats, Just Eat, menú del día) y **Surprise Boxes de Too Good To Go de paso** a tu alrededor en España — adaptado a tus exclusiones dietéticas, sin repetir sitios recientes y con **guías visuales PDF multipágina**.
+**Website & MCP:** `https://come.cheap` (`https://come.cheap/mcp`)  
+**Authentication:** OAuth 2.1 (`auth.megawebs.com`) or personal `cbg_` Bearer token from `https://come.cheap/account`
 
-## Authentication & Setup
-- **Remote MCP Endpoint:** `https://come.cheap/mcp`
-- **OAuth 2.1:** Conecta directamente en ChatGPT o Claude mediante Megawebs Account (`https://auth.megawebs.com`).
-- **Personal Bearer Token:** Gestiona tus preferencias guardadas y tokens CLI opcionales en `https://come.cheap/account`.
+## MCP Client Configuration
 
-## Tools
-- `comebarato_get_profile` — Carga exclusiones dietéticas, gustos, barrios habituales, idioma, comensales y presupuesto.
-- `comebarato_save_profile` — Guarda preferencias o carga el preset `no_red_meat` / `default`.
-- `comebarato_find_deals` — Busca restaurantes cercanos, ordena cestas de platos de más barato a más caro, muestra ofertas públicas y Surprise Boxes de paso, evita repeticiones y genera un PDF visual.
-- `comebarato_generate_pdf` — Regenera el PDF visual y la guía web de un informe existente.
-- `comebarato_get_history` — Lista informes PDF anteriores y locales recomendados.
-- `comebarato_log_feedback` — Marca sitios como visitados, favoritos, no deseados o bloqueados para no repetirlos.
+```json
+{
+  "mcpServers": {
+    "come-barato-gratis": {
+      "type": "http",
+      "url": "https://come.cheap/mcp"
+    }
+  }
+}
+```
 
-## Scope & Disclaimers
-Come Barato & Gratis (`come-barato-gratis`) es una herramienta informativa de descubrimiento. No está afiliada con TheFork, Uber Eats, Just Eat ni Too Good To Go, no realiza pedidos ni reservas de mesas y no garantiza stock en vivo de Too Good To Go ni preparación libre de alérgenos. Confirma siempre los ingredientes y precios finales con el local.
-
-## Links
-- Website & Account: `https://come.cheap`
-- Support: `https://come.cheap/support`
-- Privacy Policy: `https://come.cheap/privacy`
-- Terms of Service: `https://come.cheap/terms`
+## Available Tools (11)
+- `comebarato_get_profile` — Load saved dietary exclusions, anchors, budget, language & Madrid local time
+- `comebarato_save_profile` — Save dietary preferences or load `no_red_meat` preset
+- `comebarato_get_history` — View past published guides and 21-day anti-repeat venue history
+- `comebarato_log_feedback` — Mark venues as `visited`, `loved`, `disliked`, or `blacklisted`
+- `comebarato_search_places` — Bulk-search Google Maps, web menus, TheFork, Uber Eats, Just Eat & Too Good To Go
+- `comebarato_fetch_pages` — Bulk-fetch up to 10 restaurant/menu URLs with text & candidate photos
+- `comebarato_find_dish_images` — Bulk-verify or discover real non-stock dish photos
+- `comebarato_publish_guide` — Compile Markdown + verified dish photos into warm-paper HTML (`/r/<id>`), printable PDF (`/r/<id>.pdf`) & inline MCP App
+- `comebarato_find_deals` — One-call search + PDF shortcut
+- `comebarato_generate_pdf` — Re-render PDF for an existing guide
+- `comebarato_get_debug_logs` — Inspect tenant-scoped tool telemetry and correlation IDs

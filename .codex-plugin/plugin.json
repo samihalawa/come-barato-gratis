@@ -49,7 +49,7 @@
   "name": "come-barato-gratis",
   "repository": "https://github.com/samihalawa/come-barato-gratis",
   "skills": "./skills",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "extensions": {
     "com.openai": {
       "review": {
@@ -106,7 +106,7 @@
         "demo_recording_url": "https://github.com/samihalawa/come-barato-gratis/releases/download/v1.0.2/come-barato-gratis-demo.mp4"
       },
       "publication": {
-        "release_notes": "Launched come.cheap primary domain, studio-grade icon, strengthened GDPR privacy policy, and full 63-language listing support.",
+        "release_notes": "Editorial website redesign at come.cheap, 11-tool agent-first MCP (bulk search, page fetch, dish image verification, warm-paper editorial PDF compiler), and native MCP App v2.",
         "translations": {
           "am": {
             "subtitle": "+50% ቅናሾች እና Surprise Boxes",
